@@ -1,0 +1,715 @@
+window.I18N = {
+  /* ============================= RUSSIAN ============================= */
+  ru: {
+    nav: { home: "Главная", services: "Услуги", process: "Процесс", support: "Поддержка", privacy: "Конфиденциальность", terms: "Условия", contact: "Контакты", cta: "Связаться" },
+    home: { badge: "Разработчик мобильных приложений", lead: "Nilemnod разрабатывает мобильные приложения для iOS и Android. Ниже — политика конфиденциальности, условия использования и способы связи с нами.", privacyDesc: "Как мы собираем, используем и защищаем ваши персональные данные.", termsDesc: "Правила использования наших приложений и сайта.", supportDesc: "Помощь с приложением или вашим аккаунтом.", contactDesc: "Сообщение, обратная связь или запрос по данным.", open: "Открыть" },
+    hero: {
+      badge: "Студия мобильных продуктов",
+      title1: "Создаём мобильные приложения,", title2: "которые полюбят пользователи",
+      lead: "Nilemnod — продуктовая студия, которая проектирует и разрабатывает быстрые и элегантные приложения для iOS и Android — от первого наброска до релиза в сторе.",
+      ctaPrimary: "Начать проект", ctaSecondary: "Наши услуги",
+      stat1: "Выпущено приложений", stat2: "Средний рейтинг", stat3: "Стран",
+      chip1: "Точно в срок", chip2: "Быстро и нативно"
+    },
+    services: {
+      eyebrow: "Что мы делаем", title: "Полный цикл мобильной разработки",
+      lead: "Одна команда закрывает стратегию, дизайн и разработку — продукт выходит цельным и быстро.",
+      s1: { title: "Приложения для iOS и Android", desc: "Нативные и кросс-платформенные приложения на SwiftUI, Kotlin и современных инструментах — плавно и надёжно." },
+      s2: { title: "UX и UI дизайн", desc: "Интерфейсы на основе исследований, дизайн-системы и прототипы, которые делают сложное простым." },
+      s3: { title: "Продуктовая стратегия", desc: "Скоуп, роадмапы и планирование MVP, превращающие идею в проверенный план продукта." },
+      s4: { title: "QA и релиз", desc: "Тестирование, публикация в сторе и соответствие требованиям — запуск проходит спокойно и предсказуемо." },
+      s5: { title: "Бэкенд и API", desc: "Масштабируемые облачные бэкенды, безопасные API и интеграции, сохраняющие скорость по мере роста." },
+      s6: { title: "Поддержка и сопровождение", desc: "Обновления, мониторинг и оперативная поддержка, чтобы приложение оставалось здоровым после запуска." }
+    },
+    process: {
+      eyebrow: "Как мы работаем", title: "Спокойный и прозрачный процесс",
+      lead: "Четыре понятных этапа, стабильная коммуникация и никаких сюрпризов между стартом и запуском.",
+      p1: { title: "Исследуем", desc: "Согласуем цели, аудиторию и объём работ, затем строим реалистичный план и сроки." },
+      p2: { title: "Проектируем", desc: "Прорабатываем сценарии, интерфейс и прототип, проверяя направление на раннем этапе." },
+      p3: { title: "Разрабатываем", desc: "Ведём разработку короткими итерациями с регулярными тестируемыми релизами." },
+      p4: { title: "Запускаем", desc: "Берём на себя публикацию в сторе, мониторинг и поддержку после запуска." }
+    },
+    why: {
+      eyebrow: "Почему Nilemnod", title: "Партнёр, который выпускает, а не только планирует",
+      lead: "Мы сочетаем продуктовое мышление и сильную инженерию, поэтому приложение получается и красивым, и надёжным.",
+      f1: { title: "Опытная сфокусированная команда", desc: "Вы работаете напрямую с теми, кто создаёт продукт — без передач и размытого видения." },
+      f2: { title: "Приватность по умолчанию", desc: "Мы строим с минимизацией данных и понятным согласием с самого начала, а не задним числом." },
+      f3: { title: "Готово к масштабированию", desc: "Чистая архитектура и прочный фундамент сохраняют скорость по мере роста." },
+      stat1: "Удержание клиентов", stat2: "В среднем до первого релиза", stat3: "Ответ поддержки", stat4: "Владение исходным кодом"
+    },
+    cta: { title1: "Есть идея приложения?", title2: "Давайте её реализуем.", lead: "Расскажите, над чем вы работаете. Мы ответим в течение одного рабочего дня со следующими шагами.", button: "Связаться" },
+    footer: { tagline: "Разработка мобильных приложений для iOS и Android.", company: "Компания", why: "Почему мы", resources: "Ресурсы", faq: "Частые вопросы", legal: "Правовая информация", rights: "Все права защищены." },
+    support: {
+      eyebrow: "Центр помощи", title1: "Чем мы можем", title2: "помочь?",
+      lead: "Найдите быстрые ответы ниже или свяжитесь с командой напрямую — обычно отвечаем в течение одного рабочего дня.",
+      c1: { title: "Поддержка по почте", desc: "Вопросы о приложении, ошибке или аккаунте? Пишите нам в любое время." },
+      c2: { title: "Отправить запрос", desc: "Опишите проблему через форму, и мы направим её нужному специалисту.", link: "Открыть форму" },
+      c3: { title: "Данные и приватность", desc: "Запросы о ваших данных, удалении или согласии обрабатывает команда приватности." },
+      faqEyebrow: "FAQ", faqTitle: "Частые вопросы",
+      faq1: { q: "Как сообщить об ошибке в приложении?", a: "Напишите на support@nilemnod.com название приложения, модель устройства и версию ОС, а также короткое описание или скриншот. Чем больше деталей, тем быстрее мы воспроизведём и исправим." },
+      faq2: { q: "Как быстро я получу ответ?", a: "Мы стремимся ответить на каждый запрос в течение одного рабочего дня. Сложные вопросы могут потребовать больше времени, но мы всегда держим вас в курсе." },
+      faq3: { q: "Как запросить удаление моих данных?", a: "Отправьте запрос на privacy@nilemnod.com с почты, привязанной к аккаунту. Мы подтвердим вашу личность и удалим персональные данные согласно Политике конфиденциальности." },
+      faq4: { q: "Вы разрабатываете приложения для других компаний?", a: "Да. Nilemnod проектирует и создаёт мобильные приложения для стартапов и компаний. Расскажите о проекте через форму, и мы свяжемся с вами." },
+      faq5: { q: "Какие платформы поддерживают ваши приложения?", a: "Мы разрабатываем для iOS и Android, поддерживая последние крупные версии ОС и распространённые более старые. Конкретные требования согласуются в начале проекта." },
+      faq6: { q: "Я забыл пароль или не могу войти — что делать?", a: "Используйте сброс пароля в приложении, если он доступен. Если не помогло, напишите на support@nilemnod.com, и мы поможем безопасно восстановить доступ." },
+      ctaTitle1: "Всё ещё нужна помощь?", ctaLead: "Наша команда рада помочь. Напишите нам, и мы скоро ответим."
+    },
+    contact: {
+      eyebrow: "Контакты", title1: "Поговорим о", title2: "вашем проекте",
+      lead: "Есть идея нового приложения, вопрос о продукте или нужна поддержка — напишите нам, и мы ответим в течение одного рабочего дня.",
+      info1: { title: "Общие вопросы" }, info2: { title: "Поддержка" },
+      info3: { title: "Компания", body: "Nilemnod — remote-first студия.<br/>Юридический адрес предоставляется по запросу." },
+      info4: { title: "Время ответа", body: "В течение одного рабочего дня, с понедельника по пятницу." },
+      form: { name: "Имя *", namePh: "Ваше имя", email: "Email *", emailPh: "you@example.com", subject: "Тема", opt1: "Новый проект", opt2: "Запрос в поддержку", opt3: "Данные и приватность", opt4: "Партнёрство", opt5: "Другое", message: "Сообщение *", messagePh: "Кратко расскажите, что вам нужно…", submit: "Отправить сообщение", note: "Отправляя сообщение, вы соглашаетесь с Политикой конфиденциальности. Мы используем ваши данные только для ответа на запрос." },
+      status: { ok: "Спасибо! Ваше сообщение отправлено. Мы скоро ответим.", err: "Не удалось отправить. Попробуйте ещё раз или напишите на hello@nilemnod.com.", mailto: "Открываем ваш почтовый клиент…" }
+    },
+    privacy: {
+      eyebrow: "Правовая информация", title: "Политика конфиденциальности",
+      lead: "Эта политика объясняет, какие персональные данные собирает Nilemnod, зачем и какие у вас есть права и выбор.",
+      updated: "Обновлено: 21 июля 2026",
+      note: "Это общий шаблон; перед публикацией его следует проверить у квалифицированного юриста и адаптировать под конкретное приложение. Используются контактные данные-заглушки — замените их на официальные.",
+      toc: { overview: "Обзор", data: "Какие данные", use: "Как используем", legal: "Правовые основания", sharing: "Передача", retention: "Хранение", rights: "Ваши права", security: "Безопасность", children: "Дети", changes: "Изменения", contact: "Контакты" },
+      s1: { h: "1. Обзор", p1: "Nilemnod («мы», «нас», «наш») создаёт и поддерживает мобильные приложения и этот сайт. Мы уважаем вашу приватность и защищаем ваши персональные данные. Политика распространяется на сайт nilemnod.com и наши приложения, кроме случаев, когда у приложения есть собственное уведомление о конфиденциальности.", p2: "Используя наш сайт или приложения, вы принимаете описанные здесь практики." },
+      s2: { h: "2. Какие данные мы собираем", p1: "Мы стремимся собирать только необходимые данные. В зависимости от взаимодействия это может включать:", l1: "<strong>Данные, которые вы предоставляете</strong> — имя, адрес электронной почты и содержание сообщений через формы или почту.", l2: "<strong>Данные аккаунта</strong> — если приложение требует аккаунт: учётные данные и сведения профиля, которые вы указываете.", l3: "<strong>Данные использования и устройства</strong> — версия приложения, тип устройства, ОС и обезличенные данные взаимодействия для улучшения стабильности и функций.", l4: "<strong>Диагностика</strong> — отчёты о сбоях и данные о производительности, помогающие устранять проблемы." },
+      s3: { h: "3. Как мы используем данные", p1: "Мы используем персональные данные, чтобы:", l1: "Предоставлять, поддерживать и улучшать приложения и сайт;", l2: "Отвечать на ваши запросы, вопросы и обращения в поддержку;", l3: "Диагностировать проблемы, предотвращать злоупотребления и обеспечивать безопасность;", l4: "Выполнять применимые к нам юридические обязательства.", p2: "Мы не продаём ваши персональные данные." },
+      s4: { h: "4. Правовые основания обработки", p1: "Там, где применяется GDPR или похожие законы, мы обрабатываем данные на следующих основаниях: ваше согласие; исполнение договора с вами; наши законные интересы в работе и улучшении сервисов; выполнение юридических обязательств. Вы можете отозвать согласие в любой момент, если обработка основана на согласии." },
+      s5: { h: "5. Передача данных", p1: "Мы передаём персональные данные только при необходимости:", l1: "<strong>Поставщикам услуг</strong> — доверенным подрядчикам (хостинг, аналитика, отчёты о сбоях), обрабатывающим данные от нашего имени по соответствующим соглашениям;", l2: "<strong>По закону и для безопасности</strong> — если этого требует закон либо для защиты прав, собственности или безопасности Nilemnod, пользователей и других лиц;", l3: "<strong>При передаче бизнеса</strong> — в связи со слиянием, приобретением или продажей активов, с соблюдением этой политики." },
+      s6: { h: "6. Хранение данных", p1: "Мы храним персональные данные только столько, сколько нужно для целей этой политики, предоставления сервисов или выполнения юридических, бухгалтерских и отчётных требований. Когда данные больше не нужны, мы удаляем или обезличиваем их." },
+      s7: { h: "7. Ваши права", p1: "В зависимости от местоположения вы можете иметь право на доступ, исправление, удаление или экспорт данных, на возражение или ограничение обработки и на отзыв согласия. Чтобы воспользоваться правами, напишите на privacy@nilemnod.com. Мы ответим в срок, установленный применимым законом. Вы также вправе подать жалобу в местный надзорный орган." },
+      s8: { h: "8. Безопасность", p1: "Мы применяем соответствующие технические и организационные меры для защиты данных от несанкционированного доступа, утраты или неправомерного использования. Ни один способ передачи или хранения не является полностью безопасным, но мы постоянно работаем над защитой вашей информации." },
+      s9: { h: "9. Конфиденциальность детей", p1: "Наши сервисы не предназначены для детей младше возраста, установленного местным законом (обычно 13 или 16 лет), и мы сознательно не собираем их данные. Если вы считаете, что ребёнок предоставил нам данные, напишите нам, и мы их удалим." },
+      s10: { h: "10. Изменения политики", p1: "Мы можем время от времени обновлять эту политику. Обновлённая версия публикуется здесь с новой датой обновления. О существенных изменениях мы можем сообщить в приложениях или по электронной почте." },
+      s11: { h: "11. Связаться с нами", p1: "Если у вас есть вопросы об этой политике или обработке данных, напишите на <a class=\"inline\" href=\"mailto:privacy@nilemnod.com\">privacy@nilemnod.com</a> или через <a class=\"inline\" href=\"contact.html\">страницу контактов</a>." }
+    },
+    terms: {
+      eyebrow: "Правовая информация", title: "Условия использования",
+      lead: "Эти условия регулируют использование сайта Nilemnod и наших приложений. Пожалуйста, внимательно их прочитайте.",
+      updated: "Обновлено: 21 июля 2026",
+      note: "Это общий шаблон; перед публикацией его следует проверить у квалифицированного юриста и адаптировать под вашу юрисдикцию и приложения. Используются контактные данные-заглушки — замените их на официальные.",
+      toc: { acceptance: "Принятие", use: "Использование", accounts: "Аккаунты", ip: "Интеллектуальная собственность", thirdparty: "Третьи стороны", disclaimer: "Отказ от гарантий", liability: "Ответственность", termination: "Прекращение", law: "Применимое право", changes: "Изменения", contact: "Контакты" },
+      s1: { h: "1. Принятие условий", p1: "Получая доступ к сайту Nilemnod или любому приложению Nilemnod (вместе — «Сервисы») или используя их, вы соглашаетесь с этими Условиями использования. Если вы не согласны, не используйте Сервисы. Если у отдельного приложения есть свои дополнительные условия, они применяются вместе с этими." },
+      s2: { h: "2. Использование Сервисов", p1: "Вы соглашаетесь использовать Сервисы только в законных целях и в соответствии с этими условиями. Запрещается:", l1: "Использовать Сервисы способами, нарушающими применимые законы или правила;", l2: "Пытаться получить несанкционированный доступ к нашим системам или мешать их работе;", l3: "Реверс-инжинирить, копировать или перепродавать любую часть Сервисов, кроме разрешённого законом;", l4: "Использовать Сервисы для передачи вредоносного, оскорбительного или нарушающего права контента." },
+      s3: { h: "3. Аккаунты", p1: "Некоторые приложения могут требовать аккаунт. Вы отвечаете за сохранность учётных данных и за все действия под вашим аккаунтом. Незамедлительно сообщайте о несанкционированном использовании. Мы можем приостановить или закрыть аккаунты, нарушающие эти условия." },
+      s4: { h: "4. Интеллектуальная собственность", p1: "Сервисы, включая ПО, дизайн, тексты и логотипы, принадлежат Nilemnod или её лицензиарам и защищены законами об интеллектуальной собственности. Мы предоставляем вам ограниченную, неисключительную и непередаваемую лицензию на использование Сервисов по назначению. Все прямо не предоставленные права сохраняются." },
+      s5: { h: "5. Сторонние сервисы", p1: "Наши Сервисы могут ссылаться на сторонние платформы или использовать их — например, магазины приложений и платёжные сервисы. Мы не отвечаем за их содержание или практики; к их использованию применяются их собственные условия и политики." },
+      s6: { h: "6. Отказ от гарантий", p1: "Сервисы предоставляются «как есть» и «как доступно», без каких-либо гарантий, явных или подразумеваемых, в максимально допустимой законом степени. Мы не гарантируем бесперебойную, безошибочную или полностью безопасную работу Сервисов." },
+      s7: { h: "7. Ограничение ответственности", p1: "В максимально допустимой законом степени Nilemnod не несёт ответственности за косвенные, случайные, специальные или последующие убытки, а также за потерю данных или прибыли, возникшие из использования Сервисов. Ничто в этих условиях не исключает ответственность, которую нельзя исключить по применимому закону." },
+      s8: { h: "8. Прекращение", p1: "Мы можем приостановить или прекратить ваш доступ к Сервисам в любое время при нарушении этих условий или когда это необходимо для защиты Сервисов или пользователей. Вы можете прекратить использование Сервисов в любой момент." },
+      s9: { h: "9. Применимое право", p1: "Эти условия регулируются законодательством юрисдикции, в которой учреждена Nilemnod, без учёта коллизионных норм. Споры подлежат рассмотрению в компетентных судах этой юрисдикции, если иное не предусмотрено императивными нормами местного права." },
+      s10: { h: "10. Изменения условий", p1: "Мы можем время от времени обновлять эти условия. Обновлённая версия публикуется здесь с новой датой обновления. Продолжение использования Сервисов после вступления изменений в силу означает принятие обновлённых условий." },
+      s11: { h: "11. Связаться с нами", p1: "Вопросы об этих условиях можно отправить на <a class=\"inline\" href=\"mailto:legal@nilemnod.com\">legal@nilemnod.com</a> или через <a class=\"inline\" href=\"contact.html\">страницу контактов</a>." }
+    }
+  },
+
+  /* ============================= SPANISH ============================= */
+  es: {
+    nav: { home: "Inicio", services: "Servicios", process: "Proceso", support: "Soporte", privacy: "Privacidad", terms: "Términos", contact: "Contacto", cta: "Contáctanos" },
+    home: { badge: "Desarrollador de apps móviles", lead: "Nilemnod desarrolla apps móviles para iOS y Android. A continuación encontrarás nuestra política de privacidad, los términos de servicio y cómo contactarnos.", privacyDesc: "Cómo recopilamos, usamos y protegemos tus datos personales.", termsDesc: "Las reglas para usar nuestras apps y sitio web.", supportDesc: "Obtén ayuda con una app o tu cuenta.", contactDesc: "Envíanos un mensaje, comentarios o una solicitud de datos.", open: "Abrir" },
+    hero: {
+      badge: "Estudio de productos móviles",
+      title1: "Creamos apps móviles", title2: "que encanta usar",
+      lead: "Nilemnod es un estudio de producto que diseña y desarrolla apps rápidas y elegantes para iOS y Android — desde el primer boceto hasta un lanzamiento pulido en la tienda.",
+      ctaPrimary: "Iniciar un proyecto", ctaSecondary: "Ver servicios",
+      stat1: "Apps publicadas", stat2: "Valoración media", stat3: "Países",
+      chip1: "Entregado a tiempo", chip2: "Rápido y nativo"
+    },
+    services: {
+      eyebrow: "Qué hacemos", title: "Desarrollo móvil de principio a fin",
+      lead: "Un solo equipo que cubre estrategia, diseño e ingeniería — para que tu producto salga coherente y rápido.",
+      s1: { title: "Apps iOS y Android", desc: "Apps nativas y multiplataforma con SwiftUI, Kotlin y herramientas modernas, con un rendimiento fluido y fiable." },
+      s2: { title: "Diseño UX y UI", desc: "Interfaces basadas en investigación, sistemas de diseño y prototipos que hacen sencillo lo complejo." },
+      s3: { title: "Estrategia de producto", desc: "Alcance, hojas de ruta y planificación de MVP que convierten una idea en un plan validado." },
+      s4: { title: "QA y lanzamiento", desc: "Pruebas, envío a la tienda y cumplimiento gestionados de extremo a extremo, para lanzamientos tranquilos." },
+      s5: { title: "Backend y APIs", desc: "Backends en la nube escalables, APIs seguras e integraciones que mantienen tu app rápida al crecer." },
+      s6: { title: "Mantenimiento y soporte", desc: "Actualizaciones, monitoreo y soporte ágil para mantener tu app sana mucho después del lanzamiento." }
+    },
+    process: {
+      eyebrow: "Cómo trabajamos", title: "Un proceso tranquilo y transparente",
+      lead: "Cuatro etapas claras, comunicación constante y ninguna sorpresa entre el inicio y el lanzamiento.",
+      p1: { title: "Descubrir", desc: "Alineamos objetivos, usuarios y alcance, y definimos un plan y un calendario realistas." },
+      p2: { title: "Diseñar", desc: "Creamos los flujos, la interfaz y el prototipo, validando la dirección desde el principio." },
+      p3: { title: "Construir", desc: "Desarrollamos en iteraciones cortas con lanzamientos regulares y probables." },
+      p4: { title: "Lanzar", desc: "Nos encargamos del envío a la tienda, el monitoreo y el soporte tras la publicación." }
+    },
+    why: {
+      eyebrow: "Por qué Nilemnod", title: "Un socio que entrega, no solo planifica",
+      lead: "Combinamos pensamiento de producto con ingeniería sólida, para una app hermosa y fiable.",
+      f1: { title: "Equipo sénior y enfocado", desc: "Trabajas directamente con quienes construyen tu producto — sin traspasos ni visión diluida." },
+      f2: { title: "Privacidad desde el diseño", desc: "Construimos con minimización de datos y consentimiento claro desde el inicio." },
+      f3: { title: "Preparado para escalar", desc: "Arquitectura limpia y bases sólidas que mantienen tu app rápida a medida que crece." },
+      stat1: "Retención de clientes", stat2: "Media hasta el primer lanzamiento", stat3: "Respuesta de soporte", stat4: "Propiedad del código"
+    },
+    cta: { title1: "¿Tienes una idea de app?", title2: "Construyámosla.", lead: "Cuéntanos en qué trabajas. Te respondemos en un día hábil con los siguientes pasos.", button: "Contáctanos" },
+    footer: { tagline: "Desarrollo de apps móviles para iOS y Android.", company: "Empresa", why: "Por qué nosotros", resources: "Recursos", faq: "Preguntas", legal: "Legal", rights: "Todos los derechos reservados." },
+    support: {
+      eyebrow: "Centro de ayuda", title1: "¿Cómo podemos", title2: "ayudarte?",
+      lead: "Encuentra respuestas rápidas abajo o contacta a nuestro equipo — solemos responder en un día hábil.",
+      c1: { title: "Soporte por correo", desc: "¿Preguntas sobre una app, un error o tu cuenta? Escríbenos cuando quieras." },
+      c2: { title: "Enviar una solicitud", desc: "Usa el formulario para describir tu caso y lo dirigiremos a la persona correcta.", link: "Abrir formulario" },
+      c3: { title: "Datos y privacidad", desc: "Las solicitudes sobre tus datos, eliminación o consentimiento las gestiona el equipo de privacidad." },
+      faqEyebrow: "FAQ", faqTitle: "Preguntas frecuentes",
+      faq1: { q: "¿Cómo reporto un error en una de sus apps?", a: "Escribe a support@nilemnod.com con el nombre de la app, tu modelo de dispositivo y versión del sistema, y una breve descripción o captura. Cuanto más detalle, más rápido lo reproducimos y solucionamos." },
+      faq2: { q: "¿Con qué rapidez recibiré respuesta?", a: "Intentamos responder cada solicitud en un día hábil. Los casos complejos pueden tardar más, pero siempre te mantenemos informado." },
+      faq3: { q: "¿Cómo solicito la eliminación de mis datos?", a: "Envía una solicitud a privacy@nilemnod.com desde el correo asociado a tu cuenta. Verificaremos tu identidad y eliminaremos tus datos según nuestra Política de Privacidad." },
+      faq4: { q: "¿Desarrollan apps a medida para otras empresas?", a: "Sí. Nilemnod diseña y desarrolla apps móviles para startups y empresas. Usa el formulario para contarnos tu proyecto y te contactaremos." },
+      faq5: { q: "¿Qué plataformas soportan sus apps?", a: "Desarrollamos para iOS y Android, con soporte para las versiones principales recientes y otras anteriores de uso extendido. Los requisitos se acuerdan al inicio del proyecto." },
+      faq6: { q: "Olvidé mi contraseña o no puedo entrar, ¿qué hago?", a: "Usa el restablecimiento dentro de la app si está disponible. Si aún tienes problemas, escribe a support@nilemnod.com y te ayudaremos a recuperar el acceso." },
+      ctaTitle1: "¿Todavía necesitas ayuda?", ctaLead: "Nuestro equipo estará encantado de ayudarte. Escríbenos y te responderemos pronto."
+    },
+    contact: {
+      eyebrow: "Contacto", title1: "Hablemos de", title2: "tu proyecto",
+      lead: "Ya sea una nueva idea de app, una pregunta sobre un producto existente o necesitas soporte — envíanos un mensaje y responderemos en un día hábil.",
+      info1: { title: "General" }, info2: { title: "Soporte" },
+      info3: { title: "Empresa", body: "Nilemnod — estudio remote-first.<br/>Domicilio disponible a solicitud." },
+      info4: { title: "Tiempo de respuesta", body: "En un día hábil, de lunes a viernes." },
+      form: { name: "Nombre *", namePh: "Tu nombre", email: "Email *", emailPh: "tu@ejemplo.com", subject: "Tema", opt1: "Nuevo proyecto", opt2: "Solicitud de soporte", opt3: "Datos y privacidad", opt4: "Alianza", opt5: "Otro", message: "Mensaje *", messagePh: "Cuéntanos un poco sobre lo que necesitas…", submit: "Enviar mensaje", note: "Al enviar este mensaje aceptas nuestra Política de Privacidad. Solo usamos tus datos para responder a tu solicitud." },
+      status: { ok: "¡Gracias! Tu mensaje fue enviado. Responderemos pronto.", err: "No se pudo enviar. Inténtalo de nuevo o escribe a hello@nilemnod.com.", mailto: "Abriendo tu cliente de correo…" }
+    },
+    privacy: {
+      eyebrow: "Legal", title: "Política de Privacidad",
+      lead: "Esta política explica qué datos personales recopila Nilemnod, por qué, y qué opciones y derechos tienes.",
+      updated: "Última actualización: 21 de julio de 2026",
+      note: "Esta es una plantilla general que debe ser revisada por un abogado calificado y adaptada a cada app antes de publicarse. Se usan datos de contacto de ejemplo que deben reemplazarse por tu información oficial.",
+      toc: { overview: "Resumen", data: "Datos que recopilamos", use: "Uso de los datos", legal: "Bases legales", sharing: "Compartición", retention: "Conservación", rights: "Tus derechos", security: "Seguridad", children: "Menores", changes: "Cambios", contact: "Contacto" },
+      s1: { h: "1. Resumen", p1: "Nilemnod («nosotros») desarrolla y opera apps móviles y este sitio web. Respetamos tu privacidad y protegemos tus datos personales. Esta política se aplica al sitio nilemnod.com y a las apps que publicamos, salvo cuando una app tenga su propio aviso específico.", p2: "Al usar nuestro sitio o apps, reconoces las prácticas descritas en esta política." },
+      s2: { h: "2. Datos que recopilamos", p1: "Buscamos recopilar solo los datos necesarios. Según cómo interactúes, esto puede incluir:", l1: "<strong>Información que proporcionas</strong> — como tu nombre, correo y el contenido de los mensajes que nos envías por formularios o email.", l2: "<strong>Datos de cuenta</strong> — cuando una app requiere cuenta, las credenciales y datos de perfil que decides aportar.", l3: "<strong>Datos de uso y dispositivo</strong> — como versión de la app, tipo de dispositivo, sistema operativo y datos de interacción anonimizados para mejorar estabilidad y funciones.", l4: "<strong>Diagnósticos</strong> — informes de fallos y datos de rendimiento que nos ayudan a corregir problemas." },
+      s3: { h: "3. Cómo usamos tus datos", p1: "Usamos los datos personales para:", l1: "Proveer, mantener y mejorar nuestras apps y sitio web;", l2: "Responder a tus solicitudes, preguntas y consultas de soporte;", l3: "Diagnosticar problemas, prevenir abusos y mantener la seguridad;", l4: "Cumplir las obligaciones legales que nos aplican.", p2: "No vendemos tus datos personales." },
+      s4: { h: "4. Bases legales del tratamiento", p1: "Cuando aplican el RGPD u otras leyes similares, tratamos los datos sobre estas bases: tu consentimiento; la ejecución de un contrato contigo; nuestros intereses legítimos en operar y mejorar los servicios; y el cumplimiento de obligaciones legales. Puedes retirar el consentimiento en cualquier momento cuando el tratamiento se base en él." },
+      s5: { h: "5. Compartir tus datos", p1: "Compartimos datos personales solo cuando es necesario, con:", l1: "<strong>Proveedores de servicios</strong> — colaboradores de confianza (hosting, analítica, informes de fallos) que tratan datos en nuestro nombre bajo acuerdos adecuados;", l2: "<strong>Legal y seguridad</strong> — cuando lo exige la ley, o para proteger los derechos, la propiedad o la seguridad de Nilemnod, sus usuarios u otros;", l3: "<strong>Transferencias de negocio</strong> — en relación con una fusión, adquisición o venta de activos, sujeto a esta política." },
+      s6: { h: "6. Conservación de datos", p1: "Conservamos los datos personales solo el tiempo necesario para los fines de esta política, prestar nuestros servicios o cumplir requisitos legales, contables o de información. Cuando ya no son necesarios, los eliminamos o anonimizamos." },
+      s7: { h: "7. Tus derechos", p1: "Según tu ubicación, puedes tener derecho a acceder, corregir, eliminar o exportar tus datos, a oponerte o limitar ciertos tratamientos y a retirar el consentimiento. Para ejercerlos, escribe a privacy@nilemnod.com. Responderemos en el plazo que exija la ley aplicable. También puedes presentar una reclamación ante tu autoridad de protección de datos." },
+      s8: { h: "8. Seguridad", p1: "Aplicamos medidas técnicas y organizativas adecuadas para proteger los datos frente a accesos no autorizados, pérdida o uso indebido. Ningún método de transmisión o almacenamiento es totalmente seguro, pero trabajamos continuamente para proteger tu información." },
+      s9: { h: "9. Privacidad de menores", p1: "Nuestros servicios no están dirigidos a menores por debajo de la edad exigida por la ley local (generalmente 13 o 16 años) y no recopilamos sus datos de forma consciente. Si crees que un menor nos ha facilitado datos, contáctanos y los eliminaremos." },
+      s10: { h: "10. Cambios en esta política", p1: "Podemos actualizar esta política de vez en cuando. Publicaremos la versión actualizada aquí y revisaremos la fecha de «última actualización». Los cambios significativos pueden comunicarse por las apps o por correo cuando corresponda." },
+      s11: { h: "11. Contáctanos", p1: "Si tienes preguntas sobre esta política o sobre cómo tratamos tus datos, escríbenos a <a class=\"inline\" href=\"mailto:privacy@nilemnod.com\">privacy@nilemnod.com</a> o a través de nuestra <a class=\"inline\" href=\"contact.html\">página de contacto</a>." }
+    },
+    terms: {
+      eyebrow: "Legal", title: "Términos de Servicio",
+      lead: "Estos términos rigen tu uso del sitio web de Nilemnod y de las apps que ofrecemos. Léelos con atención.",
+      updated: "Última actualización: 21 de julio de 2026",
+      note: "Esta es una plantilla general que debe ser revisada por un abogado calificado y adaptada a tu jurisdicción y apps antes de publicarse. Se usan datos de contacto de ejemplo que deben reemplazarse por tu información oficial.",
+      toc: { acceptance: "Aceptación", use: "Uso del servicio", accounts: "Cuentas", ip: "Propiedad intelectual", thirdparty: "Terceros", disclaimer: "Descargo", liability: "Responsabilidad", termination: "Terminación", law: "Ley aplicable", changes: "Cambios", contact: "Contacto" },
+      s1: { h: "1. Aceptación de los términos", p1: "Al acceder o usar el sitio web de Nilemnod o cualquier app de Nilemnod (juntos, los «Servicios»), aceptas quedar vinculado por estos Términos de Servicio. Si no estás de acuerdo, no uses los Servicios. Cuando una app tenga términos adicionales propios, estos se aplican junto con los presentes." },
+      s2: { h: "2. Uso de los Servicios", p1: "Aceptas usar los Servicios solo con fines lícitos y conforme a estos términos. No debes:", l1: "Usar los Servicios de cualquier forma que infrinja leyes o regulaciones aplicables;", l2: "Intentar acceder sin autorización a nuestros sistemas o interferir en su funcionamiento;", l3: "Aplicar ingeniería inversa, copiar o revender cualquier parte de los Servicios salvo lo permitido por ley;", l4: "Usar los Servicios para transmitir contenido dañino, abusivo o que infrinja derechos." },
+      s3: { h: "3. Cuentas", p1: "Algunas apps pueden requerir una cuenta. Eres responsable de mantener seguras tus credenciales y de toda actividad en tu cuenta. Avísanos de inmediato de cualquier uso no autorizado. Podemos suspender o cerrar cuentas que infrinjan estos términos." },
+      s4: { h: "4. Propiedad intelectual", p1: "Los Servicios, incluidos software, diseño, textos y logotipos, son propiedad de Nilemnod o sus licenciantes y están protegidos por leyes de propiedad intelectual. Te concedemos una licencia limitada, no exclusiva e intransferible para usar los Servicios según su finalidad. Todos los derechos no otorgados expresamente quedan reservados." },
+      s5: { h: "5. Servicios de terceros", p1: "Nuestros Servicios pueden enlazar o depender de plataformas de terceros, como tiendas de apps y proveedores de pago. No somos responsables del contenido ni de las prácticas de esos terceros, y a tu uso se aplican sus propios términos y políticas." },
+      s6: { h: "6. Descargo de garantías", p1: "Los Servicios se ofrecen «tal cual» y «según disponibilidad», sin garantías de ningún tipo, expresas o implícitas, en la máxima medida permitida por la ley. No garantizamos que los Servicios sean ininterrumpidos, libres de errores o totalmente seguros." },
+      s7: { h: "7. Limitación de responsabilidad", p1: "En la máxima medida permitida por la ley, Nilemnod no será responsable de daños indirectos, incidentales, especiales o consecuentes, ni de la pérdida de datos o beneficios, derivados de tu uso de los Servicios. Nada en estos términos excluye la responsabilidad que no pueda excluirse legalmente." },
+      s8: { h: "8. Terminación", p1: "Podemos suspender o terminar tu acceso a los Servicios en cualquier momento si incumples estos términos o cuando sea necesario para proteger los Servicios u otros usuarios. Puedes dejar de usar los Servicios cuando quieras." },
+      s9: { h: "9. Ley aplicable", p1: "Estos términos se rigen por las leyes de la jurisdicción en la que Nilemnod está establecida, sin atender a los principios de conflicto de leyes. Las disputas se someterán a los tribunales competentes de esa jurisdicción, salvo que la ley local imperativa disponga otra cosa." },
+      s10: { h: "10. Cambios en los términos", p1: "Podemos actualizar estos términos de vez en cuando. La versión actualizada se publicará aquí con una nueva fecha de «última actualización». El uso continuado de los Servicios tras la entrada en vigor de los cambios implica su aceptación." },
+      s11: { h: "11. Contáctanos", p1: "Las preguntas sobre estos términos pueden enviarse a <a class=\"inline\" href=\"mailto:legal@nilemnod.com\">legal@nilemnod.com</a> o a través de nuestra <a class=\"inline\" href=\"contact.html\">página de contacto</a>." }
+    }
+  },
+
+  /* ============================= FRENCH ============================= */
+  fr: {
+    nav: { home: "Accueil", services: "Services", process: "Processus", support: "Support", privacy: "Confidentialité", terms: "Conditions", contact: "Contact", cta: "Nous contacter" },
+    home: { badge: "Développeur d'apps mobiles", lead: "Nilemnod développe des applications mobiles pour iOS et Android. Vous trouverez ci-dessous notre politique de confidentialité, nos conditions d'utilisation et comment nous contacter.", privacyDesc: "Comment nous collectons, utilisons et protégeons vos données personnelles.", termsDesc: "Les règles d'utilisation de nos apps et de notre site.", supportDesc: "Obtenez de l'aide sur une app ou votre compte.", contactDesc: "Envoyez-nous un message, un retour ou une demande de données.", open: "Ouvrir" },
+    hero: {
+      badge: "Studio de produits mobiles",
+      title1: "Nous créons des apps mobiles", title2: "que l'on aime utiliser",
+      lead: "Nilemnod est un studio produit qui conçoit et développe des applications iOS et Android rapides et élégantes — de la première esquisse à un lancement soigné sur le store.",
+      ctaPrimary: "Démarrer un projet", ctaSecondary: "Voir les services",
+      stat1: "Apps livrées", stat2: "Note moyenne", stat3: "Pays",
+      chip1: "Livré à temps", chip2: "Rapide et natif"
+    },
+    services: {
+      eyebrow: "Ce que nous faisons", title: "Développement mobile de bout en bout",
+      lead: "Une seule équipe pour la stratégie, le design et l'ingénierie — pour un produit cohérent et livré vite.",
+      s1: { title: "Apps iOS et Android", desc: "Applications natives et multiplateformes avec SwiftUI, Kotlin et des outils modernes, pour des performances fluides et fiables." },
+      s2: { title: "Design UX et UI", desc: "Interfaces basées sur la recherche, systèmes de design et prototypes qui rendent le complexe simple." },
+      s3: { title: "Stratégie produit", desc: "Cadrage, feuilles de route et planification MVP qui transforment une idée en plan validé." },
+      s4: { title: "QA et publication", desc: "Tests, soumission au store et conformité gérés de bout en bout, pour des lancements sereins." },
+      s5: { title: "Backend et API", desc: "Backends cloud évolutifs, API sécurisées et intégrations qui gardent votre app rapide en croissant." },
+      s6: { title: "Maintenance et support", desc: "Mises à jour, supervision et support réactif pour garder votre app en bonne santé après le lancement." }
+    },
+    process: {
+      eyebrow: "Notre méthode", title: "Un processus calme et transparent",
+      lead: "Quatre étapes claires, une communication régulière et aucune surprise entre le lancement du projet et la mise en ligne.",
+      p1: { title: "Découvrir", desc: "Nous alignons objectifs, utilisateurs et périmètre, puis définissons un plan et un calendrier réalistes." },
+      p2: { title: "Concevoir", desc: "Nous élaborons les parcours, l'interface et le prototype, en validant la direction tôt." },
+      p3: { title: "Développer", desc: "Nous développons par courtes itérations avec des versions testables régulières." },
+      p4: { title: "Lancer", desc: "Nous gérons la soumission au store, la supervision et le support après la mise en ligne." }
+    },
+    why: {
+      eyebrow: "Pourquoi Nilemnod", title: "Un partenaire qui livre, pas seulement qui planifie",
+      lead: "Nous allions vision produit et ingénierie solide, pour une app à la fois belle et fiable.",
+      f1: { title: "Équipe senior et concentrée", desc: "Vous travaillez directement avec celles et ceux qui construisent votre produit — sans relais ni vision diluée." },
+      f2: { title: "Confidentialité dès la conception", desc: "Nous construisons avec minimisation des données et consentement clair dès le départ." },
+      f3: { title: "Prêt à évoluer", desc: "Une architecture propre et des bases solides qui gardent votre app rapide en grandissant." },
+      stat1: "Fidélité client", stat2: "Moy. jusqu'à la 1re version", stat3: "Réponse du support", stat4: "Propriété du code source"
+    },
+    cta: { title1: "Une idée d'app ?", title2: "Construisons-la.", lead: "Dites-nous sur quoi vous travaillez. Nous revenons vers vous sous un jour ouvré avec les prochaines étapes.", button: "Nous contacter" },
+    footer: { tagline: "Développement d'applications mobiles pour iOS et Android.", company: "Entreprise", why: "Pourquoi nous", resources: "Ressources", faq: "FAQ", legal: "Mentions légales", rights: "Tous droits réservés." },
+    support: {
+      eyebrow: "Centre d'aide", title1: "Comment pouvons-nous", title2: "vous aider ?",
+      lead: "Trouvez des réponses rapides ci-dessous, ou contactez directement notre équipe — nous répondons généralement sous un jour ouvré.",
+      c1: { title: "Support par e-mail", desc: "Une question sur une app, un bug ou votre compte ? Écrivez-nous à tout moment." },
+      c2: { title: "Envoyer une demande", desc: "Utilisez le formulaire pour décrire votre problème et nous l'orienterons vers la bonne personne.", link: "Ouvrir le formulaire" },
+      c3: { title: "Données et confidentialité", desc: "Les demandes concernant vos données, leur suppression ou le consentement sont traitées par notre équipe confidentialité." },
+      faqEyebrow: "FAQ", faqTitle: "Questions fréquentes",
+      faq1: { q: "Comment signaler un bug dans l'une de vos apps ?", a: "Écrivez à support@nilemnod.com en indiquant le nom de l'app, le modèle de votre appareil, la version de l'OS et une brève description ou capture. Plus vous donnez de détails, plus vite nous reproduisons et corrigeons." },
+      faq2: { q: "Sous quel délai aurai-je une réponse ?", a: "Nous visons une réponse à chaque demande sous un jour ouvré. Les cas complexes peuvent prendre plus de temps, mais nous vous tenons toujours informé." },
+      faq3: { q: "Comment demander la suppression de mes données ?", a: "Envoyez une demande à privacy@nilemnod.com depuis l'e-mail lié à votre compte. Nous vérifierons votre identité et supprimerons vos données personnelles selon notre Politique de confidentialité." },
+      faq4: { q: "Développez-vous des apps sur mesure pour d'autres entreprises ?", a: "Oui. Nilemnod conçoit et développe des apps mobiles pour startups et entreprises. Utilisez le formulaire pour nous parler de votre projet et nous reviendrons vers vous." },
+      faq5: { q: "Quelles plateformes vos apps prennent-elles en charge ?", a: "Nous développons pour iOS et Android, en ciblant les versions majeures récentes ainsi que d'anciennes très répandues. Les besoins précis sont définis au début de chaque projet." },
+      faq6: { q: "J'ai oublié mon mot de passe ou ne peux pas me connecter, que faire ?", a: "Utilisez la réinitialisation dans l'app si elle est disponible. Si le problème persiste, écrivez à support@nilemnod.com et nous vous aiderons à récupérer l'accès en toute sécurité." },
+      ctaTitle1: "Besoin d'aide supplémentaire ?", ctaLead: "Notre équipe se fera un plaisir de vous aider. Contactez-nous et nous vous répondrons rapidement."
+    },
+    contact: {
+      eyebrow: "Contact", title1: "Parlons de", title2: "votre projet",
+      lead: "Que vous ayez une nouvelle idée d'app, une question sur un produit existant ou besoin de support — envoyez-nous un message et nous répondrons sous un jour ouvré.",
+      info1: { title: "Général" }, info2: { title: "Support" },
+      info3: { title: "Entreprise", body: "Nilemnod — studio remote-first.<br/>Adresse enregistrée disponible sur demande." },
+      info4: { title: "Délai de réponse", body: "Sous un jour ouvré, du lundi au vendredi." },
+      form: { name: "Nom *", namePh: "Votre nom", email: "E-mail *", emailPh: "vous@exemple.com", subject: "Sujet", opt1: "Nouveau projet", opt2: "Demande de support", opt3: "Données et confidentialité", opt4: "Partenariat", opt5: "Autre", message: "Message *", messagePh: "Décrivez brièvement votre besoin…", submit: "Envoyer le message", note: "En envoyant ce message, vous acceptez notre Politique de confidentialité. Nous utilisons vos coordonnées uniquement pour répondre à votre demande." },
+      status: { ok: "Merci ! Votre message a été envoyé. Nous répondrons bientôt.", err: "Envoi impossible. Réessayez ou écrivez à hello@nilemnod.com.", mailto: "Ouverture de votre messagerie…" }
+    },
+    privacy: {
+      eyebrow: "Mentions légales", title: "Politique de confidentialité",
+      lead: "Cette politique explique quelles données personnelles Nilemnod collecte, pourquoi, et quels choix et droits vous avez.",
+      updated: "Dernière mise à jour : 21 juillet 2026",
+      note: "Ceci est un modèle général qui doit être revu par un juriste qualifié et adapté à chaque app avant publication. Des coordonnées fictives sont utilisées et doivent être remplacées par vos informations officielles.",
+      toc: { overview: "Aperçu", data: "Données collectées", use: "Utilisation", legal: "Bases légales", sharing: "Partage", retention: "Conservation", rights: "Vos droits", security: "Sécurité", children: "Enfants", changes: "Modifications", contact: "Contact" },
+      s1: { h: "1. Aperçu", p1: "Nilemnod (« nous ») développe et exploite des applications mobiles et ce site web. Nous respectons votre vie privée et protégeons vos données personnelles. Cette politique s'applique au site nilemnod.com et aux apps que nous publions, sauf lorsqu'une app fournit son propre avis spécifique.", p2: "En utilisant notre site ou nos apps, vous reconnaissez les pratiques décrites ici." },
+      s2: { h: "2. Données que nous collectons", p1: "Nous cherchons à ne collecter que les données nécessaires. Selon vos interactions, cela peut inclure :", l1: "<strong>Informations que vous fournissez</strong> — votre nom, votre e-mail et le contenu des messages envoyés via des formulaires ou par e-mail.", l2: "<strong>Données de compte</strong> — lorsqu'une app requiert un compte, les identifiants et informations de profil que vous fournissez.", l3: "<strong>Données d'usage et d'appareil</strong> — version de l'app, type d'appareil, système d'exploitation et données d'interaction anonymisées pour améliorer stabilité et fonctionnalités.", l4: "<strong>Diagnostics</strong> — rapports de plantage et données de performance qui nous aident à corriger les problèmes." },
+      s3: { h: "3. Comment nous utilisons vos données", p1: "Nous utilisons les données personnelles pour :", l1: "Fournir, maintenir et améliorer nos apps et notre site ;", l2: "Répondre à vos demandes, questions et sollicitations de support ;", l3: "Diagnostiquer les problèmes, prévenir les abus et assurer la sécurité ;", l4: "Respecter les obligations légales qui s'appliquent à nous.", p2: "Nous ne vendons pas vos données personnelles." },
+      s4: { h: "4. Bases légales du traitement", p1: "Lorsque le RGPD ou des lois similaires s'appliquent, nous traitons les données sur les bases suivantes : votre consentement ; l'exécution d'un contrat avec vous ; nos intérêts légitimes à exploiter et améliorer nos services ; et le respect d'obligations légales. Vous pouvez retirer votre consentement à tout moment lorsque le traitement repose sur celui-ci." },
+      s5: { h: "5. Partage de vos données", p1: "Nous partageons des données personnelles uniquement lorsque nécessaire, avec :", l1: "<strong>Prestataires</strong> — fournisseurs de confiance (hébergement, analytique, rapports de plantage) qui traitent les données pour notre compte dans le cadre d'accords appropriés ;", l2: "<strong>Obligations légales et sécurité</strong> — lorsque la loi l'exige, ou pour protéger les droits, les biens ou la sécurité de Nilemnod, de ses utilisateurs ou d'autrui ;", l3: "<strong>Transferts d'entreprise</strong> — dans le cadre d'une fusion, acquisition ou cession d'actifs, sous réserve de cette politique." },
+      s6: { h: "6. Conservation des données", p1: "Nous conservons les données personnelles uniquement le temps nécessaire aux finalités décrites ici, pour fournir nos services ou répondre à des exigences légales, comptables ou déclaratives. Lorsque les données ne sont plus nécessaires, nous les supprimons ou les anonymisons." },
+      s7: { h: "7. Vos droits", p1: "Selon votre localisation, vous pouvez avoir le droit d'accéder à vos données, de les rectifier, de les supprimer ou de les exporter, de vous opposer à certains traitements ou de les limiter, et de retirer votre consentement. Pour exercer ces droits, écrivez à privacy@nilemnod.com. Nous répondrons dans le délai prévu par la loi applicable. Vous pouvez aussi introduire une réclamation auprès de votre autorité de protection des données." },
+      s8: { h: "8. Sécurité", p1: "Nous utilisons des mesures techniques et organisationnelles appropriées pour protéger les données contre l'accès non autorisé, la perte ou le mésusage. Aucune méthode de transmission ou de stockage n'est totalement sûre, mais nous travaillons en continu à protéger vos informations." },
+      s9: { h: "9. Vie privée des enfants", p1: "Nos services ne sont pas destinés aux enfants en dessous de l'âge requis par la loi locale (généralement 13 ou 16 ans) et nous ne collectons pas sciemment leurs données. Si vous pensez qu'un enfant nous a fourni des données, contactez-nous et nous les supprimerons." },
+      s10: { h: "10. Modifications de cette politique", p1: "Nous pouvons mettre à jour cette politique de temps à autre. La version à jour sera publiée ici avec une date de « dernière mise à jour » révisée. Les changements importants pourront être communiqués via les apps ou par e-mail le cas échéant." },
+      s11: { h: "11. Nous contacter", p1: "Pour toute question sur cette politique ou le traitement de vos données, écrivez à <a class=\"inline\" href=\"mailto:privacy@nilemnod.com\">privacy@nilemnod.com</a> ou via notre <a class=\"inline\" href=\"contact.html\">page de contact</a>." }
+    },
+    terms: {
+      eyebrow: "Mentions légales", title: "Conditions d'utilisation",
+      lead: "Ces conditions régissent votre utilisation du site Nilemnod et des apps que nous fournissons. Veuillez les lire attentivement.",
+      updated: "Dernière mise à jour : 21 juillet 2026",
+      note: "Ceci est un modèle général qui doit être revu par un juriste qualifié et adapté à votre juridiction et à vos apps avant publication. Des coordonnées fictives sont utilisées et doivent être remplacées par vos informations officielles.",
+      toc: { acceptance: "Acceptation", use: "Utilisation", accounts: "Comptes", ip: "Propriété intellectuelle", thirdparty: "Tiers", disclaimer: "Exclusion", liability: "Responsabilité", termination: "Résiliation", law: "Droit applicable", changes: "Modifications", contact: "Contact" },
+      s1: { h: "1. Acceptation des conditions", p1: "En accédant au site Nilemnod ou à toute app Nilemnod (ensemble, les « Services ») ou en les utilisant, vous acceptez d'être lié par ces Conditions d'utilisation. Si vous n'êtes pas d'accord, n'utilisez pas les Services. Lorsqu'une app dispose de conditions supplémentaires propres, celles-ci s'appliquent en complément." },
+      s2: { h: "2. Utilisation des Services", p1: "Vous acceptez d'utiliser les Services uniquement à des fins licites et conformément à ces conditions. Vous ne devez pas :", l1: "Utiliser les Services d'une manière contraire aux lois ou réglementations applicables ;", l2: "Tenter d'accéder sans autorisation à nos systèmes ou nuire à leur fonctionnement ;", l3: "Faire de la rétro-ingénierie, copier ou revendre toute partie des Services, sauf autorisation légale ;", l4: "Utiliser les Services pour transmettre du contenu nuisible, abusif ou contrefaisant." },
+      s3: { h: "3. Comptes", p1: "Certaines apps peuvent nécessiter un compte. Vous êtes responsable de la sécurité de vos identifiants et de toute activité sur votre compte. Signalez-nous rapidement toute utilisation non autorisée. Nous pouvons suspendre ou fermer les comptes qui enfreignent ces conditions." },
+      s4: { h: "4. Propriété intellectuelle", p1: "Les Services, y compris le logiciel, le design, les textes et les logos, appartiennent à Nilemnod ou à ses concédants et sont protégés par les lois sur la propriété intellectuelle. Nous vous accordons une licence limitée, non exclusive et non transférable d'utilisation des Services aux fins prévues. Tous les droits non expressément accordés sont réservés." },
+      s5: { h: "5. Services tiers", p1: "Nos Services peuvent renvoyer à des plateformes tierces ou en dépendre, comme les stores d'applications et les prestataires de paiement. Nous ne sommes pas responsables du contenu ou des pratiques de ces tiers, et leurs propres conditions et politiques s'appliquent à votre usage." },
+      s6: { h: "6. Exclusion de garanties", p1: "Les Services sont fournis « en l'état » et « selon disponibilité », sans garantie d'aucune sorte, expresse ou implicite, dans toute la mesure permise par la loi. Nous ne garantissons pas que les Services seront ininterrompus, exempts d'erreurs ou entièrement sécurisés." },
+      s7: { h: "7. Limitation de responsabilité", p1: "Dans toute la mesure permise par la loi, Nilemnod ne sera pas responsable des dommages indirects, accessoires, spéciaux ou consécutifs, ni de la perte de données ou de bénéfices, résultant de votre utilisation des Services. Rien dans ces conditions n'exclut une responsabilité qui ne peut être exclue par la loi applicable." },
+      s8: { h: "8. Résiliation", p1: "Nous pouvons suspendre ou résilier votre accès aux Services à tout moment en cas de violation de ces conditions ou lorsque cela est nécessaire pour protéger les Services ou d'autres utilisateurs. Vous pouvez cesser d'utiliser les Services à tout moment." },
+      s9: { h: "9. Droit applicable", p1: "Ces conditions sont régies par le droit de la juridiction dans laquelle Nilemnod est établie, sans égard aux règles de conflit de lois. Tout litige relèvera des tribunaux compétents de cette juridiction, sauf disposition impérative contraire du droit local." },
+      s10: { h: "10. Modifications des conditions", p1: "Nous pouvons mettre à jour ces conditions de temps à autre. La version à jour sera publiée ici avec une date de « dernière mise à jour » révisée. L'utilisation continue des Services après l'entrée en vigueur des modifications vaut acceptation des conditions mises à jour." },
+      s11: { h: "11. Nous contacter", p1: "Les questions relatives à ces conditions peuvent être envoyées à <a class=\"inline\" href=\"mailto:legal@nilemnod.com\">legal@nilemnod.com</a> ou via notre <a class=\"inline\" href=\"contact.html\">page de contact</a>." }
+    }
+  },
+
+  /* ============================= GERMAN ============================= */
+  de: {
+    nav: { home: "Start", services: "Leistungen", process: "Ablauf", support: "Support", privacy: "Datenschutz", terms: "AGB", contact: "Kontakt", cta: "Kontakt" },
+    home: { badge: "Entwickler mobiler Apps", lead: "Nilemnod entwickelt mobile Apps für iOS und Android. Nachfolgend finden Sie unsere Datenschutzerklärung, die Nutzungsbedingungen und wie Sie uns erreichen.", privacyDesc: "Wie wir Ihre personenbezogenen Daten erheben, nutzen und schützen.", termsDesc: "Die Regeln zur Nutzung unserer Apps und Website.", supportDesc: "Hilfe zu einer App oder Ihrem Konto.", contactDesc: "Senden Sie uns eine Nachricht, Feedback oder eine Datenanfrage.", open: "Öffnen" },
+    hero: {
+      badge: "Studio für mobile Produkte",
+      title1: "Wir bauen mobile Apps,", title2: "die man gerne nutzt",
+      lead: "Nilemnod ist ein Produktstudio, das schnelle und elegante iOS- und Android-Apps gestaltet und entwickelt — von der ersten Skizze bis zum ausgereiften Store-Release.",
+      ctaPrimary: "Projekt starten", ctaSecondary: "Leistungen ansehen",
+      stat1: "Veröffentlichte Apps", stat2: "Ø Store-Bewertung", stat3: "Länder",
+      chip1: "Pünktlich geliefert", chip2: "Schnell & nativ"
+    },
+    services: {
+      eyebrow: "Was wir tun", title: "Mobile Entwicklung von A bis Z",
+      lead: "Ein Team für Strategie, Design und Engineering — damit Ihr Produkt stimmig und schnell erscheint.",
+      s1: { title: "iOS- & Android-Apps", desc: "Native und plattformübergreifende Apps mit SwiftUI, Kotlin und modernen Tools für flüssige, zuverlässige Performance." },
+      s2: { title: "UX- & UI-Design", desc: "Forschungsbasierte Interfaces, Designsysteme und Prototypen, die Komplexes mühelos wirken lassen." },
+      s3: { title: "Produktstrategie", desc: "Scoping, Roadmaps und MVP-Planung, die aus einer Idee einen validierten Plan machen." },
+      s4: { title: "QA & Release", desc: "Tests, Store-Einreichung und Compliance komplett betreut — für ruhige, planbare Launches." },
+      s5: { title: "Backend & APIs", desc: "Skalierbare Cloud-Backends, sichere APIs und Integrationen, die Ihre App im Wachstum schnell halten." },
+      s6: { title: "Wartung & Support", desc: "Laufende Updates, Monitoring und reaktionsschneller Support, damit Ihre App auch nach dem Launch gesund bleibt." }
+    },
+    process: {
+      eyebrow: "So arbeiten wir", title: "Ein ruhiger, transparenter Ablauf",
+      lead: "Vier klare Phasen, stetige Kommunikation und keine Überraschungen zwischen Start und Launch.",
+      p1: { title: "Verstehen", desc: "Wir stimmen Ziele, Nutzer und Umfang ab und erstellen einen realistischen Plan mit Zeitrahmen." },
+      p2: { title: "Gestalten", desc: "Wir entwerfen Abläufe, Interface und Prototyp und validieren die Richtung früh." },
+      p3: { title: "Bauen", desc: "Wir entwickeln in kurzen Iterationen mit regelmäßigen, testbaren Releases." },
+      p4: { title: "Launchen", desc: "Wir übernehmen Store-Einreichung, Monitoring und Support nach dem Go-live." }
+    },
+    why: {
+      eyebrow: "Warum Nilemnod", title: "Ein Partner, der liefert – nicht nur plant",
+      lead: "Wir verbinden Produktdenken mit starkem Engineering, damit Ihre App schön und verlässlich zugleich ist.",
+      f1: { title: "Erfahrenes, fokussiertes Team", desc: "Sie arbeiten direkt mit den Menschen, die Ihr Produkt bauen — ohne Übergaben oder verwässerte Vision." },
+      f2: { title: "Datenschutz von Anfang an", desc: "Wir bauen mit Datenminimierung und klarer Einwilligung von Beginn an, nicht nachträglich." },
+      f3: { title: "Skalierbar gebaut", desc: "Saubere Architektur und solide Grundlagen halten Ihre App im Wachstum schnell." },
+      stat1: "Kundenbindung", stat2: "Ø bis zum ersten Release", stat3: "Support-Reaktion", stat4: "Eigentum am Quellcode"
+    },
+    cta: { title1: "Eine App-Idee?", title2: "Lassen Sie uns bauen.", lead: "Erzählen Sie uns, woran Sie arbeiten. Wir melden uns innerhalb eines Werktags mit den nächsten Schritten.", button: "Kontakt aufnehmen" },
+    footer: { tagline: "Entwicklung mobiler Apps für iOS und Android.", company: "Unternehmen", why: "Warum wir", resources: "Ressourcen", faq: "FAQ", legal: "Rechtliches", rights: "Alle Rechte vorbehalten." },
+    support: {
+      eyebrow: "Hilfebereich", title1: "Wie können wir", title2: "Ihnen helfen?",
+      lead: "Finden Sie unten schnelle Antworten oder wenden Sie sich direkt an unser Team — wir antworten in der Regel innerhalb eines Werktags.",
+      c1: { title: "E-Mail-Support", desc: "Fragen zu einer App, einem Fehler oder Ihrem Konto? Schreiben Sie uns jederzeit." },
+      c2: { title: "Anfrage senden", desc: "Beschreiben Sie Ihr Anliegen über das Formular, und wir leiten es an die richtige Person weiter.", link: "Kontaktformular öffnen" },
+      c3: { title: "Daten & Datenschutz", desc: "Anfragen zu Ihren Daten, zur Löschung oder Einwilligung bearbeitet unser Datenschutzteam." },
+      faqEyebrow: "FAQ", faqTitle: "Häufige Fragen",
+      faq1: { q: "Wie melde ich einen Fehler in einer Ihrer Apps?", a: "Schreiben Sie an support@nilemnod.com mit App-Name, Gerätemodell, OS-Version und einer kurzen Beschreibung oder einem Screenshot. Je mehr Details, desto schneller können wir reproduzieren und beheben." },
+      faq2: { q: "Wie schnell erhalte ich eine Antwort?", a: "Wir versuchen, jede Anfrage innerhalb eines Werktags zu beantworten. Komplexe Fälle können länger dauern, aber wir halten Sie stets auf dem Laufenden." },
+      faq3: { q: "Wie beantrage ich die Löschung meiner Daten?", a: "Senden Sie eine Anfrage an privacy@nilemnod.com von der zu Ihrem Konto gehörenden E-Mail. Wir prüfen Ihre Identität und löschen Ihre personenbezogenen Daten gemäß unserer Datenschutzerklärung." },
+      faq4: { q: "Entwickeln Sie individuelle Apps für andere Unternehmen?", a: "Ja. Nilemnod gestaltet und entwickelt mobile Apps für Start-ups und Unternehmen. Erzählen Sie uns über das Formular von Ihrem Projekt, und wir melden uns." },
+      faq5: { q: "Welche Plattformen unterstützen Ihre Apps?", a: "Wir entwickeln für iOS und Android und können aktuelle Hauptversionen sowie verbreitete ältere Versionen abdecken. Konkrete Anforderungen werden zu Projektbeginn festgelegt." },
+      faq6: { q: "Ich habe mein Passwort vergessen oder komme nicht rein – was tun?", a: "Nutzen Sie, falls vorhanden, die Passwortzurücksetzung in der App. Wenn es weiterhin klemmt, schreiben Sie an support@nilemnod.com, und wir helfen Ihnen sicher zurück." },
+      ctaTitle1: "Brauchen Sie noch Hilfe?", ctaLead: "Unser Team hilft Ihnen gern. Melden Sie sich, und wir antworten Ihnen zeitnah."
+    },
+    contact: {
+      eyebrow: "Kontakt", title1: "Sprechen wir über", title2: "Ihr Projekt",
+      lead: "Ob eine neue App-Idee, eine Frage zu einem bestehenden Produkt oder Support-Bedarf — senden Sie uns eine Nachricht, wir antworten innerhalb eines Werktags.",
+      info1: { title: "Allgemein" }, info2: { title: "Support" },
+      info3: { title: "Unternehmen", body: "Nilemnod — Remote-First-Studio.<br/>Registrierte Anschrift auf Anfrage." },
+      info4: { title: "Antwortzeit", body: "Innerhalb eines Werktags, Montag bis Freitag." },
+      form: { name: "Name *", namePh: "Ihr Name", email: "E-Mail *", emailPh: "sie@beispiel.com", subject: "Thema", opt1: "Neues Projekt", opt2: "Support-Anfrage", opt3: "Daten & Datenschutz", opt4: "Partnerschaft", opt5: "Sonstiges", message: "Nachricht *", messagePh: "Beschreiben Sie kurz Ihr Anliegen…", submit: "Nachricht senden", note: "Mit dem Senden dieser Nachricht stimmen Sie unserer Datenschutzerklärung zu. Wir verwenden Ihre Daten nur zur Beantwortung Ihrer Anfrage." },
+      status: { ok: "Danke! Ihre Nachricht wurde gesendet. Wir antworten in Kürze.", err: "Senden fehlgeschlagen. Versuchen Sie es erneut oder schreiben Sie an hello@nilemnod.com.", mailto: "Ihr E-Mail-Programm wird geöffnet…" }
+    },
+    privacy: {
+      eyebrow: "Rechtliches", title: "Datenschutzerklärung",
+      lead: "Diese Erklärung beschreibt, welche personenbezogenen Daten Nilemnod erhebt, warum, und welche Wahlmöglichkeiten und Rechte Sie haben.",
+      updated: "Zuletzt aktualisiert: 21. Juli 2026",
+      note: "Dies ist eine allgemeine Vorlage, die vor der Veröffentlichung von einer qualifizierten Rechtsberatung geprüft und an jede App angepasst werden sollte. Es werden Platzhalter-Kontaktdaten verwendet, die durch Ihre offiziellen Angaben zu ersetzen sind.",
+      toc: { overview: "Überblick", data: "Erhobene Daten", use: "Nutzung", legal: "Rechtsgrundlagen", sharing: "Weitergabe", retention: "Speicherung", rights: "Ihre Rechte", security: "Sicherheit", children: "Kinder", changes: "Änderungen", contact: "Kontakt" },
+      s1: { h: "1. Überblick", p1: "Nilemnod („wir“) entwickelt und betreibt mobile Apps und diese Website. Wir respektieren Ihre Privatsphäre und schützen Ihre personenbezogenen Daten. Diese Erklärung gilt für die Website nilemnod.com und die von uns veröffentlichten Apps, sofern eine App keine eigene spezifische Datenschutzerklärung bereitstellt.", p2: "Mit der Nutzung unserer Website oder Apps erkennen Sie die hier beschriebenen Praktiken an." },
+      s2: { h: "2. Welche Daten wir erheben", p1: "Wir erheben nur die Daten, die wir benötigen. Je nach Interaktion kann dies umfassen:", l1: "<strong>Von Ihnen bereitgestellte Angaben</strong> — etwa Name, E-Mail-Adresse und der Inhalt von Nachrichten über Formulare oder E-Mail.", l2: "<strong>Kontodaten</strong> — sofern eine App ein Konto erfordert, die von Ihnen angegebenen Zugangs- und Profildaten.", l3: "<strong>Nutzungs- und Gerätedaten</strong> — etwa App-Version, Gerätetyp, Betriebssystem und anonymisierte Interaktionsdaten zur Verbesserung von Stabilität und Funktionen.", l4: "<strong>Diagnosedaten</strong> — Absturzberichte und Leistungsdaten, die uns bei der Fehlerbehebung helfen." },
+      s3: { h: "3. Wie wir Ihre Daten nutzen", p1: "Wir verwenden personenbezogene Daten, um:", l1: "unsere Apps und Website bereitzustellen, zu betreiben und zu verbessern;", l2: "auf Ihre Anfragen, Fragen und Support-Anliegen zu reagieren;", l3: "Probleme zu diagnostizieren, Missbrauch zu verhindern und die Sicherheit zu gewährleisten;", l4: "die für uns geltenden gesetzlichen Pflichten zu erfüllen.", p2: "Wir verkaufen Ihre personenbezogenen Daten nicht." },
+      s4: { h: "4. Rechtsgrundlagen der Verarbeitung", p1: "Soweit die DSGVO oder ähnliche Gesetze gelten, verarbeiten wir Daten auf folgenden Grundlagen: Ihre Einwilligung; die Erfüllung eines Vertrags mit Ihnen; unsere berechtigten Interessen am Betrieb und der Verbesserung der Dienste; sowie die Erfüllung gesetzlicher Pflichten. Beruht die Verarbeitung auf Einwilligung, können Sie diese jederzeit widerrufen." },
+      s5: { h: "5. Weitergabe Ihrer Daten", p1: "Wir geben personenbezogene Daten nur weiter, wenn es erforderlich ist, an:", l1: "<strong>Dienstleister</strong> — vertrauenswürdige Anbieter (z. B. Hosting, Analyse, Absturzberichte), die Daten in unserem Auftrag auf Grundlage geeigneter Verträge verarbeiten;", l2: "<strong>Recht und Sicherheit</strong> — wenn gesetzlich vorgeschrieben oder zum Schutz der Rechte, des Eigentums oder der Sicherheit von Nilemnod, unseren Nutzern oder Dritten;", l3: "<strong>Unternehmensübergänge</strong> — im Zusammenhang mit einer Fusion, Übernahme oder einem Verkauf von Vermögenswerten, vorbehaltlich dieser Erklärung." },
+      s6: { h: "6. Speicherdauer", p1: "Wir speichern personenbezogene Daten nur so lange, wie es für die hier beschriebenen Zwecke, zur Bereitstellung unserer Dienste oder zur Erfüllung gesetzlicher, buchhalterischer oder berichtsbezogener Anforderungen nötig ist. Werden Daten nicht mehr benötigt, löschen oder anonymisieren wir sie." },
+      s7: { h: "7. Ihre Rechte", p1: "Je nach Standort haben Sie ggf. das Recht, auf Ihre Daten zuzugreifen, sie zu berichtigen, zu löschen oder zu exportieren, bestimmten Verarbeitungen zu widersprechen oder sie einzuschränken und Einwilligungen zu widerrufen. Zur Ausübung schreiben Sie an privacy@nilemnod.com. Wir antworten innerhalb der gesetzlich vorgesehenen Frist. Sie haben zudem das Recht, sich bei Ihrer Datenschutzbehörde zu beschweren." },
+      s8: { h: "8. Sicherheit", p1: "Wir setzen angemessene technische und organisatorische Maßnahmen ein, um Daten vor unbefugtem Zugriff, Verlust oder Missbrauch zu schützen. Keine Übertragungs- oder Speichermethode ist vollständig sicher, doch wir arbeiten laufend am Schutz Ihrer Informationen." },
+      s9: { h: "9. Datenschutz von Kindern", p1: "Unsere Dienste richten sich nicht an Kinder unterhalb des nach lokalem Recht erforderlichen Alters (in der Regel 13 oder 16 Jahre), und wir erheben deren Daten nicht wissentlich. Wenn Sie glauben, dass ein Kind uns Daten übermittelt hat, kontaktieren Sie uns, und wir löschen sie." },
+      s10: { h: "10. Änderungen dieser Erklärung", p1: "Wir können diese Erklärung von Zeit zu Zeit aktualisieren. Die aktualisierte Fassung wird hier veröffentlicht und das Datum „Zuletzt aktualisiert“ angepasst. Wesentliche Änderungen können ggf. über die Apps oder per E-Mail mitgeteilt werden." },
+      s11: { h: "11. Kontakt", p1: "Bei Fragen zu dieser Erklärung oder zum Umgang mit Ihren Daten schreiben Sie an <a class=\"inline\" href=\"mailto:privacy@nilemnod.com\">privacy@nilemnod.com</a> oder über unsere <a class=\"inline\" href=\"contact.html\">Kontaktseite</a>." }
+    },
+    terms: {
+      eyebrow: "Rechtliches", title: "Nutzungsbedingungen",
+      lead: "Diese Bedingungen regeln Ihre Nutzung der Nilemnod-Website und der von uns bereitgestellten Apps. Bitte lesen Sie sie sorgfältig.",
+      updated: "Zuletzt aktualisiert: 21. Juli 2026",
+      note: "Dies ist eine allgemeine Vorlage, die vor der Veröffentlichung von einer qualifizierten Rechtsberatung geprüft und an Ihre Rechtsordnung und Apps angepasst werden sollte. Es werden Platzhalter-Kontaktdaten verwendet, die durch Ihre offiziellen Angaben zu ersetzen sind.",
+      toc: { acceptance: "Annahme", use: "Nutzung", accounts: "Konten", ip: "Geistiges Eigentum", thirdparty: "Dritte", disclaimer: "Haftungsausschluss", liability: "Haftung", termination: "Beendigung", law: "Anwendbares Recht", changes: "Änderungen", contact: "Kontakt" },
+      s1: { h: "1. Annahme der Bedingungen", p1: "Mit dem Zugriff auf die Nilemnod-Website oder eine Nilemnod-App (zusammen die „Dienste“) oder deren Nutzung erklären Sie sich mit diesen Nutzungsbedingungen einverstanden. Wenn Sie nicht einverstanden sind, nutzen Sie die Dienste nicht. Hat eine einzelne App eigene zusätzliche Bedingungen, gelten diese ergänzend." },
+      s2: { h: "2. Nutzung der Dienste", p1: "Sie verpflichten sich, die Dienste nur zu rechtmäßigen Zwecken und gemäß diesen Bedingungen zu nutzen. Untersagt ist:", l1: "die Dienste in einer Weise zu nutzen, die geltende Gesetze oder Vorschriften verletzt;", l2: "zu versuchen, sich unbefugt Zugang zu unseren Systemen zu verschaffen oder deren Betrieb zu stören;", l3: "Teile der Dienste zurückzuentwickeln, zu kopieren oder weiterzuverkaufen, außer soweit gesetzlich zulässig;", l4: "die Dienste zur Übertragung schädlicher, missbräuchlicher oder rechtsverletzender Inhalte zu nutzen." },
+      s3: { h: "3. Konten", p1: "Einige Apps können ein Konto erfordern. Sie sind für die Sicherheit Ihrer Zugangsdaten und alle Aktivitäten unter Ihrem Konto verantwortlich. Melden Sie uns unbefugte Nutzung unverzüglich. Wir können Konten, die gegen diese Bedingungen verstoßen, sperren oder schließen." },
+      s4: { h: "4. Geistiges Eigentum", p1: "Die Dienste, einschließlich Software, Design, Texten und Logos, gehören Nilemnod oder seinen Lizenzgebern und sind durch Gesetze zum geistigen Eigentum geschützt. Wir gewähren Ihnen eine begrenzte, nicht ausschließliche und nicht übertragbare Lizenz zur bestimmungsgemäßen Nutzung der Dienste. Alle nicht ausdrücklich gewährten Rechte bleiben vorbehalten." },
+      s5: { h: "5. Dienste Dritter", p1: "Unsere Dienste können auf Plattformen Dritter verweisen oder auf diese angewiesen sein, etwa App-Stores und Zahlungsanbieter. Wir sind nicht für Inhalte oder Praktiken dieser Dritten verantwortlich; für deren Nutzung gelten deren eigene Bedingungen und Richtlinien." },
+      s6: { h: "6. Gewährleistungsausschluss", p1: "Die Dienste werden „wie besehen“ und „wie verfügbar“ bereitgestellt, ohne jegliche ausdrückliche oder stillschweigende Gewährleistung, soweit gesetzlich zulässig. Wir übernehmen keine Garantie dafür, dass die Dienste unterbrechungsfrei, fehlerfrei oder vollständig sicher sind." },
+      s7: { h: "7. Haftungsbeschränkung", p1: "Soweit gesetzlich zulässig, haftet Nilemnod nicht für indirekte, zufällige, besondere oder Folgeschäden oder für den Verlust von Daten oder Gewinnen, die aus Ihrer Nutzung der Dienste entstehen. Nichts in diesen Bedingungen schließt eine Haftung aus, die nach geltendem Recht nicht ausgeschlossen werden kann." },
+      s8: { h: "8. Beendigung", p1: "Wir können Ihren Zugang zu den Diensten jederzeit sperren oder beenden, wenn Sie gegen diese Bedingungen verstoßen oder wenn dies zum Schutz der Dienste oder anderer Nutzer erforderlich ist. Sie können die Nutzung der Dienste jederzeit beenden." },
+      s9: { h: "9. Anwendbares Recht", p1: "Diese Bedingungen unterliegen dem Recht der Rechtsordnung, in der Nilemnod niedergelassen ist, ohne Rücksicht auf Kollisionsnormen. Streitigkeiten unterliegen den zuständigen Gerichten dieser Rechtsordnung, sofern zwingendes lokales Recht nichts anderes vorsieht." },
+      s10: { h: "10. Änderungen dieser Bedingungen", p1: "Wir können diese Bedingungen von Zeit zu Zeit aktualisieren. Die aktualisierte Fassung wird hier mit einem neuen Datum „Zuletzt aktualisiert“ veröffentlicht. Die fortgesetzte Nutzung der Dienste nach Inkrafttreten der Änderungen gilt als Annahme der aktualisierten Bedingungen." },
+      s11: { h: "11. Kontakt", p1: "Fragen zu diesen Bedingungen können Sie an <a class=\"inline\" href=\"mailto:legal@nilemnod.com\">legal@nilemnod.com</a> oder über unsere <a class=\"inline\" href=\"contact.html\">Kontaktseite</a> senden." }
+    }
+  },
+
+  /* ============================= PORTUGUESE ============================= */
+  pt: {
+    nav: { home: "Início", services: "Serviços", process: "Processo", support: "Suporte", privacy: "Privacidade", terms: "Termos", contact: "Contato", cta: "Fale conosco" },
+    home: { badge: "Desenvolvedor de apps móveis", lead: "A Nilemnod desenvolve apps móveis para iOS e Android. Abaixo você encontra nossa política de privacidade, os termos de serviço e como falar conosco.", privacyDesc: "Como coletamos, usamos e protegemos seus dados pessoais.", termsDesc: "As regras para usar nossos apps e site.", supportDesc: "Obtenha ajuda com um app ou sua conta.", contactDesc: "Envie uma mensagem, feedback ou uma solicitação de dados.", open: "Abrir" },
+    hero: {
+      badge: "Estúdio de produtos móveis",
+      title1: "Criamos apps móveis", title2: "que as pessoas amam usar",
+      lead: "A Nilemnod é um estúdio de produto que projeta e desenvolve apps rápidos e elegantes para iOS e Android — do primeiro esboço a um lançamento caprichado na loja.",
+      ctaPrimary: "Iniciar um projeto", ctaSecondary: "Ver serviços",
+      stat1: "Apps publicados", stat2: "Avaliação média", stat3: "Países",
+      chip1: "Entregue no prazo", chip2: "Rápido e nativo"
+    },
+    services: {
+      eyebrow: "O que fazemos", title: "Desenvolvimento móvel de ponta a ponta",
+      lead: "Uma única equipe cobrindo estratégia, design e engenharia — para o seu produto sair coerente e rápido.",
+      s1: { title: "Apps iOS e Android", desc: "Apps nativos e multiplataforma com SwiftUI, Kotlin e ferramentas modernas, com desempenho fluido e confiável." },
+      s2: { title: "Design UX e UI", desc: "Interfaces baseadas em pesquisa, design systems e protótipos que tornam o complexo simples." },
+      s3: { title: "Estratégia de produto", desc: "Escopo, roadmaps e planejamento de MVP que transformam uma ideia num plano validado." },
+      s4: { title: "QA e lançamento", desc: "Testes, submissão à loja e conformidade de ponta a ponta, para lançamentos tranquilos." },
+      s5: { title: "Backend e APIs", desc: "Backends em nuvem escaláveis, APIs seguras e integrações que mantêm seu app rápido ao crescer." },
+      s6: { title: "Manutenção e suporte", desc: "Atualizações, monitoramento e suporte ágil para manter seu app saudável muito após o lançamento." }
+    },
+    process: {
+      eyebrow: "Como trabalhamos", title: "Um processo calmo e transparente",
+      lead: "Quatro etapas claras, comunicação constante e nenhuma surpresa entre o início e o lançamento.",
+      p1: { title: "Descobrir", desc: "Alinhamos objetivos, usuários e escopo, e definimos um plano e cronograma realistas." },
+      p2: { title: "Desenhar", desc: "Criamos os fluxos, a interface e o protótipo, validando a direção cedo." },
+      p3: { title: "Construir", desc: "Desenvolvemos em iterações curtas com entregas testáveis e regulares." },
+      p4: { title: "Lançar", desc: "Cuidamos da submissão à loja, do monitoramento e do suporte após o lançamento." }
+    },
+    why: {
+      eyebrow: "Por que a Nilemnod", title: "Um parceiro que entrega, não só planeja",
+      lead: "Unimos pensamento de produto a uma engenharia forte, para um app bonito e confiável.",
+      f1: { title: "Equipe sênior e focada", desc: "Você trabalha diretamente com quem constrói seu produto — sem repasses nem visão diluída." },
+      f2: { title: "Privacidade desde o design", desc: "Construímos com minimização de dados e consentimento claro desde o início." },
+      f3: { title: "Feito para escalar", desc: "Arquitetura limpa e bases sólidas que mantêm seu app rápido conforme cresce." },
+      stat1: "Retenção de clientes", stat2: "Média até o 1º lançamento", stat3: "Resposta do suporte", stat4: "Propriedade do código"
+    },
+    cta: { title1: "Tem uma ideia de app?", title2: "Vamos construí-la.", lead: "Conte no que você está trabalhando. Respondemos em até um dia útil com os próximos passos.", button: "Fale conosco" },
+    footer: { tagline: "Desenvolvimento de apps móveis para iOS e Android.", company: "Empresa", why: "Por que nós", resources: "Recursos", faq: "Perguntas", legal: "Jurídico", rights: "Todos os direitos reservados." },
+    support: {
+      eyebrow: "Central de ajuda", title1: "Como podemos", title2: "ajudar você?",
+      lead: "Encontre respostas rápidas abaixo ou fale direto com nossa equipe — normalmente respondemos em até um dia útil.",
+      c1: { title: "Suporte por e-mail", desc: "Dúvidas sobre um app, um erro ou sua conta? Escreva a qualquer momento." },
+      c2: { title: "Enviar uma solicitação", desc: "Use o formulário para descrever seu caso e vamos encaminhá-lo à pessoa certa.", link: "Abrir formulário" },
+      c3: { title: "Dados e privacidade", desc: "Solicitações sobre seus dados, exclusão ou consentimento são tratadas pela equipe de privacidade." },
+      faqEyebrow: "FAQ", faqTitle: "Perguntas frequentes",
+      faq1: { q: "Como relato um erro em um dos seus apps?", a: "Envie um e-mail para support@nilemnod.com com o nome do app, o modelo do dispositivo, a versão do sistema e uma breve descrição ou captura. Quanto mais detalhes, mais rápido reproduzimos e corrigimos." },
+      faq2: { q: "Em quanto tempo terei resposta?", a: "Buscamos responder cada solicitação em até um dia útil. Casos complexos podem levar mais tempo, mas sempre mantemos você informado." },
+      faq3: { q: "Como solicito a exclusão dos meus dados?", a: "Envie uma solicitação para privacy@nilemnod.com pelo e-mail associado à sua conta. Verificaremos sua identidade e excluiremos seus dados pessoais conforme nossa Política de Privacidade." },
+      faq4: { q: "Vocês criam apps sob medida para outras empresas?", a: "Sim. A Nilemnod projeta e desenvolve apps móveis para startups e empresas. Use o formulário para nos contar sobre seu projeto e retornaremos." },
+      faq5: { q: "Quais plataformas seus apps suportam?", a: "Desenvolvemos para iOS e Android, cobrindo as versões principais recentes e outras anteriores amplamente usadas. Os requisitos são acordados no início de cada projeto." },
+      faq6: { q: "Esqueci minha senha ou não consigo entrar — o que faço?", a: "Use a redefinição de senha no app, se disponível. Se ainda estiver com problemas, escreva para support@nilemnod.com e ajudaremos a recuperar o acesso com segurança." },
+      ctaTitle1: "Ainda precisa de ajuda?", ctaLead: "Nossa equipe terá prazer em ajudar. Fale conosco e responderemos em breve."
+    },
+    contact: {
+      eyebrow: "Contato", title1: "Vamos falar sobre", title2: "o seu projeto",
+      lead: "Seja uma nova ideia de app, uma dúvida sobre um produto existente ou uma necessidade de suporte — envie uma mensagem e respondemos em até um dia útil.",
+      info1: { title: "Geral" }, info2: { title: "Suporte" },
+      info3: { title: "Empresa", body: "Nilemnod — estúdio remote-first.<br/>Endereço registrado disponível mediante solicitação." },
+      info4: { title: "Tempo de resposta", body: "Em até um dia útil, de segunda a sexta." },
+      form: { name: "Nome *", namePh: "Seu nome", email: "E-mail *", emailPh: "voce@exemplo.com", subject: "Assunto", opt1: "Novo projeto", opt2: "Solicitação de suporte", opt3: "Dados e privacidade", opt4: "Parceria", opt5: "Outro", message: "Mensagem *", messagePh: "Conte um pouco sobre o que você precisa…", submit: "Enviar mensagem", note: "Ao enviar esta mensagem você concorda com nossa Política de Privacidade. Usamos seus dados apenas para responder à sua solicitação." },
+      status: { ok: "Obrigado! Sua mensagem foi enviada. Responderemos em breve.", err: "Não foi possível enviar. Tente novamente ou escreva para hello@nilemnod.com.", mailto: "Abrindo seu aplicativo de e-mail…" }
+    },
+    privacy: {
+      eyebrow: "Jurídico", title: "Política de Privacidade",
+      lead: "Esta política explica quais dados pessoais a Nilemnod coleta, por quê, e quais escolhas e direitos você tem.",
+      updated: "Última atualização: 21 de julho de 2026",
+      note: "Este é um modelo geral que deve ser revisado por um advogado qualificado e adaptado a cada app antes da publicação. São usados dados de contato de exemplo, que devem ser substituídos pelas suas informações oficiais.",
+      toc: { overview: "Visão geral", data: "Dados coletados", use: "Uso dos dados", legal: "Bases legais", sharing: "Compartilhamento", retention: "Retenção", rights: "Seus direitos", security: "Segurança", children: "Crianças", changes: "Alterações", contact: "Contato" },
+      s1: { h: "1. Visão geral", p1: "A Nilemnod (\"nós\") desenvolve e opera apps móveis e este site. Respeitamos sua privacidade e protegemos seus dados pessoais. Esta política se aplica ao site nilemnod.com e aos apps que publicamos, exceto quando um app fornece seu próprio aviso específico.", p2: "Ao usar nosso site ou apps, você reconhece as práticas descritas nesta política." },
+      s2: { h: "2. Dados que coletamos", p1: "Buscamos coletar apenas os dados necessários. Dependendo de como você interage, isso pode incluir:", l1: "<strong>Informações que você fornece</strong> — como nome, e-mail e o conteúdo das mensagens enviadas por formulários ou e-mail.", l2: "<strong>Dados de conta</strong> — quando um app exige conta, as credenciais e dados de perfil que você opta por fornecer.", l3: "<strong>Dados de uso e do dispositivo</strong> — como versão do app, tipo de dispositivo, sistema operacional e dados de interação anonimizados para melhorar estabilidade e recursos.", l4: "<strong>Diagnósticos</strong> — relatórios de falhas e dados de desempenho que nos ajudam a corrigir problemas." },
+      s3: { h: "3. Como usamos seus dados", p1: "Usamos dados pessoais para:", l1: "Fornecer, manter e melhorar nossos apps e site;", l2: "Responder às suas solicitações, dúvidas e pedidos de suporte;", l3: "Diagnosticar problemas, prevenir abusos e manter a segurança;", l4: "Cumprir as obrigações legais aplicáveis a nós.", p2: "Não vendemos seus dados pessoais." },
+      s4: { h: "4. Bases legais do tratamento", p1: "Quando o GDPR ou leis semelhantes se aplicam, tratamos dados com base em: seu consentimento; a execução de um contrato com você; nossos interesses legítimos em operar e melhorar os serviços; e o cumprimento de obrigações legais. Você pode retirar o consentimento a qualquer momento quando o tratamento se basear nele." },
+      s5: { h: "5. Compartilhamento dos seus dados", p1: "Compartilhamos dados pessoais apenas quando necessário, com:", l1: "<strong>Prestadores de serviço</strong> — fornecedores de confiança (por exemplo, hospedagem, analytics e relatórios de falhas) que tratam dados em nosso nome sob acordos apropriados;", l2: "<strong>Legal e segurança</strong> — quando exigido por lei, ou para proteger direitos, propriedade ou segurança da Nilemnod, de seus usuários ou de terceiros;", l3: "<strong>Transferências de negócio</strong> — no contexto de fusão, aquisição ou venda de ativos, sujeitas a esta política." },
+      s6: { h: "6. Retenção de dados", p1: "Mantemos os dados pessoais apenas pelo tempo necessário para os fins desta política, para prestar nossos serviços ou cumprir exigências legais, contábeis ou de prestação de contas. Quando não são mais necessários, excluímos ou anonimizamos os dados." },
+      s7: { h: "7. Seus direitos", p1: "Dependendo da sua localização, você pode ter direito de acessar, corrigir, excluir ou exportar seus dados, opor-se ou restringir certos tratamentos e retirar o consentimento. Para exercê-los, escreva para privacy@nilemnod.com. Responderemos no prazo exigido pela lei aplicável. Você também pode apresentar reclamação à sua autoridade de proteção de dados." },
+      s8: { h: "8. Segurança", p1: "Usamos medidas técnicas e organizacionais apropriadas para proteger os dados contra acesso não autorizado, perda ou uso indevido. Nenhum método de transmissão ou armazenamento é totalmente seguro, mas trabalhamos continuamente para proteger suas informações." },
+      s9: { h: "9. Privacidade de crianças", p1: "Nossos serviços não são direcionados a crianças abaixo da idade exigida pela lei local (geralmente 13 ou 16 anos) e não coletamos seus dados de forma consciente. Se você acredita que uma criança nos forneceu dados, entre em contato e os excluiremos." },
+      s10: { h: "10. Alterações nesta política", p1: "Podemos atualizar esta política periodicamente. Publicaremos a versão atualizada aqui e revisaremos a data de \"última atualização\". Alterações significativas podem ser comunicadas pelos apps ou por e-mail, quando apropriado." },
+      s11: { h: "11. Fale conosco", p1: "Se você tiver dúvidas sobre esta política ou sobre como tratamos seus dados, escreva para <a class=\"inline\" href=\"mailto:privacy@nilemnod.com\">privacy@nilemnod.com</a> ou pela nossa <a class=\"inline\" href=\"contact.html\">página de contato</a>." }
+    },
+    terms: {
+      eyebrow: "Jurídico", title: "Termos de Serviço",
+      lead: "Estes termos regem o uso do site da Nilemnod e dos apps que fornecemos. Leia com atenção.",
+      updated: "Última atualização: 21 de julho de 2026",
+      note: "Este é um modelo geral que deve ser revisado por um advogado qualificado e adaptado à sua jurisdição e aos seus apps antes da publicação. São usados dados de contato de exemplo, que devem ser substituídos pelas suas informações oficiais.",
+      toc: { acceptance: "Aceitação", use: "Uso do serviço", accounts: "Contas", ip: "Propriedade intelectual", thirdparty: "Terceiros", disclaimer: "Isenção", liability: "Responsabilidade", termination: "Rescisão", law: "Lei aplicável", changes: "Alterações", contact: "Contato" },
+      s1: { h: "1. Aceitação dos termos", p1: "Ao acessar ou usar o site da Nilemnod ou qualquer app da Nilemnod (em conjunto, os \"Serviços\"), você concorda em se vincular a estes Termos de Serviço. Se não concordar, não use os Serviços. Quando um app tiver termos adicionais próprios, eles se aplicam em conjunto com estes." },
+      s2: { h: "2. Uso dos Serviços", p1: "Você concorda em usar os Serviços apenas para fins lícitos e conforme estes termos. Você não deve:", l1: "Usar os Serviços de qualquer forma que viole leis ou regulamentos aplicáveis;", l2: "Tentar obter acesso não autorizado aos nossos sistemas ou interferir em seu funcionamento;", l3: "Fazer engenharia reversa, copiar ou revender qualquer parte dos Serviços, salvo quando permitido por lei;", l4: "Usar os Serviços para transmitir conteúdo nocivo, abusivo ou que viole direitos." },
+      s3: { h: "3. Contas", p1: "Alguns apps podem exigir uma conta. Você é responsável por manter suas credenciais seguras e por toda atividade na sua conta. Avise-nos prontamente sobre qualquer uso não autorizado. Podemos suspender ou encerrar contas que violem estes termos." },
+      s4: { h: "4. Propriedade intelectual", p1: "Os Serviços, incluindo software, design, textos e logotipos, pertencem à Nilemnod ou a seus licenciadores e são protegidos por leis de propriedade intelectual. Concedemos a você uma licença limitada, não exclusiva e intransferível para usar os Serviços conforme sua finalidade. Todos os direitos não concedidos expressamente ficam reservados." },
+      s5: { h: "5. Serviços de terceiros", p1: "Nossos Serviços podem vincular-se a plataformas de terceiros ou depender delas, como lojas de apps e provedores de pagamento. Não somos responsáveis pelo conteúdo ou práticas desses terceiros, e seus próprios termos e políticas se aplicam ao seu uso." },
+      s6: { h: "6. Isenção de garantias", p1: "Os Serviços são fornecidos \"no estado em que se encontram\" e \"conforme disponíveis\", sem garantias de qualquer tipo, expressas ou implícitas, na máxima medida permitida por lei. Não garantimos que os Serviços serão ininterruptos, livres de erros ou totalmente seguros." },
+      s7: { h: "7. Limitação de responsabilidade", p1: "Na máxima medida permitida por lei, a Nilemnod não será responsável por danos indiretos, incidentais, especiais ou consequentes, nem por perda de dados ou lucros, decorrentes do seu uso dos Serviços. Nada nestes termos exclui responsabilidade que não possa ser excluída pela lei aplicável." },
+      s8: { h: "8. Rescisão", p1: "Podemos suspender ou encerrar seu acesso aos Serviços a qualquer momento se você violar estes termos ou quando necessário para proteger os Serviços ou outros usuários. Você pode parar de usar os Serviços a qualquer momento." },
+      s9: { h: "9. Lei aplicável", p1: "Estes termos são regidos pelas leis da jurisdição em que a Nilemnod está estabelecida, sem considerar princípios de conflito de leis. As disputas ficarão sujeitas aos tribunais competentes dessa jurisdição, salvo disposição imperativa em contrário da lei local." },
+      s10: { h: "10. Alterações destes termos", p1: "Podemos atualizar estes termos periodicamente. A versão atualizada será publicada aqui com uma nova data de \"última atualização\". O uso contínuo dos Serviços após a vigência das alterações constitui aceitação dos termos atualizados." },
+      s11: { h: "11. Fale conosco", p1: "Dúvidas sobre estes termos podem ser enviadas para <a class=\"inline\" href=\"mailto:legal@nilemnod.com\">legal@nilemnod.com</a> ou pela nossa <a class=\"inline\" href=\"contact.html\">página de contato</a>." }
+    }
+  },
+
+  /* ============================= CHINESE (Simplified) ============================= */
+  zh: {
+    nav: { home: "首页", services: "服务", process: "流程", support: "支持", privacy: "隐私", terms: "条款", contact: "联系", cta: "联系我们" },
+    home: { badge: "移动应用开发者", lead: "Nilemnod 为 iOS 和 Android 开发移动应用。以下是我们的隐私政策、服务条款以及联系方式。", privacyDesc: "我们如何收集、使用和保护你的个人数据。", termsDesc: "使用我们应用和网站的规则。", supportDesc: "获取关于应用或账户的帮助。", contactDesc: "向我们发送留言、反馈或数据请求。", open: "打开" },
+    hero: {
+      badge: "移动产品工作室",
+      title1: "我们打造", title2: "让人爱不释手的移动应用",
+      lead: "Nilemnod 是一家产品工作室，专注设计与开发快速、优雅的 iOS 和 Android 应用——从最初草图到打磨完善的商店上线。",
+      ctaPrimary: "开始项目", ctaSecondary: "查看服务",
+      stat1: "已发布应用", stat2: "平均评分", stat3: "服务国家",
+      chip1: "按时交付", chip2: "快速且原生"
+    },
+    services: {
+      eyebrow: "我们的工作", title: "端到端移动开发",
+      lead: "一个团队涵盖策略、设计与工程——让你的产品既连贯又快速上线。",
+      s1: { title: "iOS 与 Android 应用", desc: "使用 SwiftUI、Kotlin 和现代工具构建的原生与跨平台应用，性能流畅可靠。" },
+      s2: { title: "UX 与 UI 设计", desc: "以研究驱动的界面、设计系统与原型，让复杂产品变得轻松易用。" },
+      s3: { title: "产品策略", desc: "范围界定、路线图与 MVP 规划，把想法变为经过验证、可落地的产品方案。" },
+      s4: { title: "测试与发布", desc: "端到端处理测试、商店提交与合规，让上线从容而可控。" },
+      s5: { title: "后端与 API", desc: "可扩展的云端后端、安全的 API 与集成，让应用在增长中保持快速。" },
+      s6: { title: "维护与支持", desc: "持续更新、监控与快速响应的支持，让应用在上线后依然健康。" }
+    },
+    process: {
+      eyebrow: "我们如何工作", title: "从容而透明的流程",
+      lead: "四个清晰阶段、持续沟通，从启动到上线没有意外。",
+      p1: { title: "探索", desc: "对齐目标、用户与范围，制定现实可行的计划与时间表。" },
+      p2: { title: "设计", desc: "打造流程、界面与原型，尽早验证方向。" },
+      p3: { title: "构建", desc: "以短迭代进行开发，定期交付可测试的版本。" },
+      p4: { title: "发布", desc: "上线后负责商店提交、监控与支持。" }
+    },
+    why: {
+      eyebrow: "为什么选择 Nilemnod", title: "一个交付而不止于规划的伙伴",
+      lead: "我们将产品思维与扎实工程结合，让应用既美观又可靠。",
+      f1: { title: "资深且专注的团队", desc: "你直接与构建产品的人协作——没有交接，也不会稀释愿景。" },
+      f2: { title: "隐私优先设计", desc: "我们从一开始就以数据最小化和清晰同意来构建，而非事后补救。" },
+      f3: { title: "为扩展而生", desc: "整洁的架构与稳固的基础，让应用在增长中保持快速。" },
+      stat1: "客户留存率", stat2: "平均首个版本用时", stat3: "支持响应", stat4: "源代码所有权"
+    },
+    cta: { title1: "有应用创意？", title2: "让我们一起实现。", lead: "告诉我们你在做什么。我们将在一个工作日内回复后续步骤。", button: "联系我们" },
+    footer: { tagline: "为 iOS 和 Android 开发移动应用。", company: "公司", why: "为什么选择我们", resources: "资源", faq: "常见问题", legal: "法律", rights: "保留所有权利。" },
+    support: {
+      eyebrow: "帮助中心", title1: "我们如何", title2: "为你提供帮助？",
+      lead: "在下方查找快速解答，或直接联系我们的团队——通常在一个工作日内回复。",
+      c1: { title: "邮件支持", desc: "关于应用、错误或账户的问题？随时给我们写信。" },
+      c2: { title: "提交请求", desc: "用联系表单描述你的问题，我们会转交给合适的人。", link: "打开联系表单" },
+      c3: { title: "数据与隐私", desc: "有关你的数据、删除或同意的请求由隐私团队处理。" },
+      faqEyebrow: "FAQ", faqTitle: "常见问题",
+      faq1: { q: "如何报告某个应用中的错误？", a: "发送邮件至 support@nilemnod.com，附上应用名称、设备型号、系统版本以及简短描述或截图。信息越详细，我们就能越快复现并修复。" },
+      faq2: { q: "多久能收到回复？", a: "我们力求在一个工作日内回复每一条请求。复杂问题可能需要更长时间，但我们会随时向你更新进展。" },
+      faq3: { q: "如何请求删除我的数据？", a: "请使用与账户关联的邮箱向 privacy@nilemnod.com 发送请求。我们会核实你的身份，并按隐私政策删除你的个人数据。" },
+      faq4: { q: "你们为其他公司定制开发应用吗？", a: "是的。Nilemnod 为初创公司和成熟企业设计并开发移动应用。用联系表单告诉我们你的项目，我们会跟进后续步骤。" },
+      faq5: { q: "你们的应用支持哪些平台？", a: "我们同时开发 iOS 和 Android，可覆盖最新主要系统版本以及广泛使用的较旧版本。具体需求会在每个项目开始时确定。" },
+      faq6: { q: "我忘记密码或无法登录，怎么办？", a: "如可用，请使用应用内的密码重置。若仍有问题，请写信至 support@nilemnod.com，我们会帮助你安全地恢复访问。" },
+      ctaTitle1: "仍需帮助？", ctaLead: "我们的团队乐于协助。联系我们，我们会尽快回复。"
+    },
+    contact: {
+      eyebrow: "联系", title1: "聊聊", title2: "你的项目",
+      lead: "无论是新的应用创意、关于现有产品的问题，还是需要支持——给我们留言，我们会在一个工作日内回复。",
+      info1: { title: "综合咨询" }, info2: { title: "支持" },
+      info3: { title: "公司", body: "Nilemnod——远程优先的工作室。<br/>注册地址可应请求提供。" },
+      info4: { title: "响应时间", body: "一个工作日内，周一至周五。" },
+      form: { name: "姓名 *", namePh: "你的姓名", email: "邮箱 *", emailPh: "you@example.com", subject: "主题", opt1: "新项目", opt2: "支持请求", opt3: "数据与隐私", opt4: "合作", opt5: "其他", message: "留言 *", messagePh: "简单告诉我们你的需求……", submit: "发送留言", note: "发送此留言即表示你同意我们的隐私政策。我们仅使用你的信息来回复你的请求。" },
+      status: { ok: "谢谢！你的留言已发送，我们会尽快回复。", err: "发送失败。请重试或写信至 hello@nilemnod.com。", mailto: "正在打开你的邮件客户端……" }
+    },
+    privacy: {
+      eyebrow: "法律", title: "隐私政策",
+      lead: "本政策说明 Nilemnod 收集哪些个人数据、为何收集，以及你拥有的选择和权利。",
+      updated: "最后更新：2026 年 7 月 21 日",
+      note: "这是一份通用模板，发布前应由合格律师审阅并针对每款应用进行调整。文中使用占位联系信息，应替换为你的正式信息。",
+      toc: { overview: "概述", data: "收集的数据", use: "数据使用", legal: "法律依据", sharing: "共享", retention: "保留", rights: "你的权利", security: "安全", children: "儿童", changes: "变更", contact: "联系" },
+      s1: { h: "1. 概述", p1: "Nilemnod（“我们”）开发并运营移动应用和本网站。我们尊重你的隐私并致力于保护你的个人数据。本政策适用于 nilemnod.com 网站及我们发布的应用，但应用另行提供专属隐私声明的情形除外。", p2: "使用我们的网站或应用即表示你了解本政策所述做法。" },
+      s2: { h: "2. 我们收集的数据", p1: "我们力求仅收集所需数据。根据你与我们的互动方式，可能包括：", l1: "<strong>你提供的信息</strong>——例如姓名、电子邮箱，以及你通过表单或邮件发送给我们的消息内容。", l2: "<strong>账户数据</strong>——当应用需要账户时，你选择提供的凭据和资料信息。", l3: "<strong>使用与设备数据</strong>——例如应用版本、设备类型、操作系统，以及用于改进稳定性和功能的匿名化互动数据。", l4: "<strong>诊断数据</strong>——帮助我们修复问题的崩溃报告和性能数据。" },
+      s3: { h: "3. 我们如何使用你的数据", p1: "我们使用个人数据以：", l1: "提供、维护并改进我们的应用和网站；", l2: "回复你的请求、问题和支持咨询；", l3: "诊断问题、防止滥用并保障服务安全；", l4: "遵守适用于我们的法律义务。", p2: "我们不会出售你的个人数据。" },
+      s4: { h: "4. 处理的法律依据", p1: "在适用 GDPR 或类似法律的情况下，我们基于以下依据处理数据：你的同意；与你履行合同；我们在运营和改进服务方面的合法利益；以及遵守法律义务。当处理以同意为依据时，你可随时撤回同意。" },
+      s5: { h: "5. 共享你的数据", p1: "我们仅在必要时共享个人数据，对象包括：", l1: "<strong>服务提供商</strong>——在适当协议下代表我们处理数据的可信供应商（例如托管、分析和崩溃报告）；", l2: "<strong>法律与安全</strong>——在法律要求时，或为保护 Nilemnod、我们的用户或他人的权利、财产或安全；", l3: "<strong>业务转让</strong>——在合并、收购或资产出售中，且受本政策约束。" },
+      s6: { h: "6. 数据保留", p1: "我们仅在为本政策目的、提供服务或满足法律、会计或报告要求所必需的期限内保留个人数据。当数据不再需要时，我们会将其删除或匿名化。" },
+      s7: { h: "7. 你的权利", p1: "根据你所在地区，你可能有权访问、更正、删除或导出你的数据，反对或限制某些处理，以及撤回同意。如需行使这些权利，请写信至 privacy@nilemnod.com。我们将在适用法律要求的期限内回复。你亦有权向当地数据保护机构投诉。" },
+      s8: { h: "8. 安全", p1: "我们采取适当的技术和组织措施，保护数据免遭未经授权的访问、丢失或滥用。没有任何传输或存储方式是绝对安全的，但我们持续努力保护你的信息。" },
+      s9: { h: "9. 儿童隐私", p1: "我们的服务不面向低于当地法律规定年龄（通常为 13 或 16 岁）的儿童，我们也不会有意收集其数据。若你认为某名儿童向我们提供了数据，请联系我们，我们将予以删除。" },
+      s10: { h: "10. 本政策的变更", p1: "我们可能会不时更新本政策。我们会在此发布更新版本并修改“最后更新”日期。对于重大变更，我们可能会通过应用或电子邮件在适当情况下告知。" },
+      s11: { h: "11. 联系我们", p1: "如你对本政策或我们处理数据的方式有疑问，请写信至 <a class=\"inline\" href=\"mailto:privacy@nilemnod.com\">privacy@nilemnod.com</a>，或通过我们的<a class=\"inline\" href=\"contact.html\">联系页面</a>与我们联系。" }
+    },
+    terms: {
+      eyebrow: "法律", title: "服务条款",
+      lead: "本条款约束你对 Nilemnod 网站及我们提供的应用的使用。请仔细阅读。",
+      updated: "最后更新：2026 年 7 月 21 日",
+      note: "这是一份通用模板，发布前应由合格律师审阅并根据你的司法管辖区和应用进行调整。文中使用占位联系信息，应替换为你的正式信息。",
+      toc: { acceptance: "接受", use: "服务使用", accounts: "账户", ip: "知识产权", thirdparty: "第三方", disclaimer: "免责声明", liability: "责任", termination: "终止", law: "适用法律", changes: "变更", contact: "联系" },
+      s1: { h: "1. 接受条款", p1: "访问或使用 Nilemnod 网站或任何 Nilemnod 应用（合称“服务”）即表示你同意受本服务条款约束。如你不同意，请勿使用本服务。如某款应用另有其自身附加条款，则该条款与本条款一并适用。" },
+      s2: { h: "2. 服务的使用", p1: "你同意仅将服务用于合法目的并遵守本条款。你不得：", l1: "以任何违反适用法律或法规的方式使用服务；", l2: "试图未经授权访问我们的系统或干扰其运行；", l3: "对服务的任何部分进行逆向工程、复制或转售，法律允许的除外；", l4: "使用服务传输有害、辱骂性或侵权内容。" },
+      s3: { h: "3. 账户", p1: "某些应用可能需要账户。你有责任妥善保管你的凭据，并对账户下的所有活动负责。如发现未经授权的使用，请及时通知我们。对于违反本条款的账户，我们可暂停或关闭。" },
+      s4: { h: "4. 知识产权", p1: "服务（包括软件、设计、文字和标识）归 Nilemnod 或其许可方所有，并受知识产权法律保护。我们授予你有限、非独占且不可转让的许可，以按预期目的使用服务。未明确授予的所有权利均予保留。" },
+      s5: { h: "5. 第三方服务", p1: "我们的服务可能链接到或依赖第三方平台，例如应用商店和支付提供商。我们对这些第三方的内容或做法不承担责任，你对其使用适用其自身的条款和政策。" },
+      s6: { h: "6. 免责声明", p1: "在法律允许的最大范围内，服务按“现状”和“现有”提供，不作任何明示或默示的保证。我们不保证服务不中断、无差错或完全安全。" },
+      s7: { h: "7. 责任限制", p1: "在法律允许的最大范围内，对于因你使用服务而产生的任何间接、附带、特殊或后果性损害，或数据或利润的损失，Nilemnod 概不负责。本条款中的任何内容均不排除依适用法律不可排除的责任。" },
+      s8: { h: "8. 终止", p1: "如你违反本条款，或为保护服务或其他用户之必要，我们可随时暂停或终止你对服务的访问。你可随时停止使用服务。" },
+      s9: { h: "9. 适用法律", p1: "本条款受 Nilemnod 所设立司法管辖区的法律管辖，不考虑法律冲突原则。除当地强制性法律另有规定外，任何争议均受该司法管辖区有管辖权法院管辖。" },
+      s10: { h: "10. 条款的变更", p1: "我们可能会不时更新本条款。更新版本将在此发布并附新的“最后更新”日期。在变更生效后继续使用服务，即表示接受更新后的条款。" },
+      s11: { h: "11. 联系我们", p1: "有关本条款的问题，可发送至 <a class=\"inline\" href=\"mailto:legal@nilemnod.com\">legal@nilemnod.com</a>，或通过我们的<a class=\"inline\" href=\"contact.html\">联系页面</a>联系我们。" }
+    }
+  },
+
+  /* ============================= ARABIC (RTL) ============================= */
+  ar: {
+    nav: { home: "الرئيسية", services: "الخدمات", process: "المنهجية", support: "الدعم", privacy: "الخصوصية", terms: "الشروط", contact: "تواصل", cta: "تواصل معنا" },
+    home: { badge: "مطوّر تطبيقات موبايل", lead: "تطوّر Nilemnod تطبيقات موبايل لـ iOS وAndroid. تجد أدناه سياسة الخصوصية وشروط الخدمة وطرق التواصل معنا.", privacyDesc: "كيف نجمع بياناتك الشخصية ونستخدمها ونحميها.", termsDesc: "قواعد استخدام تطبيقاتنا وموقعنا.", supportDesc: "احصل على مساعدة بشأن تطبيق أو حسابك.", contactDesc: "أرسل لنا رسالة أو ملاحظات أو طلب بيانات.", open: "فتح" },
+    hero: {
+      badge: "استوديو منتجات الموبايل",
+      title1: "نصنع تطبيقات موبايل", title2: "يحبّ الناس استخدامها",
+      lead: "Nilemnod استوديو منتجات يصمّم ويطوّر تطبيقات iOS وAndroid سريعة وأنيقة — من أول رسم تخطيطي إلى إطلاق متقن على المتجر.",
+      ctaPrimary: "ابدأ مشروعاً", ctaSecondary: "استعرض الخدمات",
+      stat1: "تطبيقات مُطلقة", stat2: "متوسط التقييم", stat3: "دول",
+      chip1: "تسليم في الموعد", chip2: "سريع وأصيل"
+    },
+    services: {
+      eyebrow: "ما نقوم به", title: "تطوير موبايل متكامل من البداية للنهاية",
+      lead: "فريق واحد يغطي الاستراتيجية والتصميم والهندسة — لينطلق منتجك متماسكاً وسريعاً.",
+      s1: { title: "تطبيقات iOS وAndroid", desc: "تطبيقات أصلية ومتعددة المنصات مبنية بـ SwiftUI وKotlin وأدوات حديثة لأداء سلس وموثوق." },
+      s2: { title: "تصميم UX وUI", desc: "واجهات مبنية على البحث وأنظمة تصميم ونماذج أولية تجعل المنتجات المعقّدة سهلة." },
+      s3: { title: "استراتيجية المنتج", desc: "تحديد النطاق وخرائط الطريق وتخطيط الـ MVP لتحويل الفكرة إلى خطة منتج مُثبتة." },
+      s4: { title: "الجودة والإطلاق", desc: "اختبار وتقديم للمتجر وامتثال يُدار بالكامل، لإطلاقات هادئة ومتوقعة." },
+      s5: { title: "الخوادم وواجهات API", desc: "خوادم سحابية قابلة للتوسع وواجهات API آمنة وتكاملات تحافظ على سرعة تطبيقك مع نموه." },
+      s6: { title: "الصيانة والدعم", desc: "تحديثات مستمرة ومراقبة ودعم سريع للحفاظ على صحة تطبيقك بعد الإطلاق بوقت طويل." }
+    },
+    process: {
+      eyebrow: "كيف نعمل", title: "منهجية هادئة وشفافة",
+      lead: "أربع مراحل واضحة وتواصل مستمر ولا مفاجآت بين الانطلاق والإطلاق.",
+      p1: { title: "الاستكشاف", desc: "نتوافق على الأهداف والمستخدمين والنطاق، ثم نضع خطة وجدولاً واقعيين." },
+      p2: { title: "التصميم", desc: "نصوغ المسارات والواجهة والنموذج الأولي، ونتحقق من الاتجاه مبكراً." },
+      p3: { title: "البناء", desc: "نطوّر عبر تكرارات قصيرة مع إصدارات منتظمة قابلة للاختبار." },
+      p4: { title: "الإطلاق", desc: "نتولى التقديم للمتجر والمراقبة والدعم بعد الانطلاق." }
+    },
+    why: {
+      eyebrow: "لماذا Nilemnod", title: "شريك يُطلق، لا يخطّط فقط",
+      lead: "نجمع بين التفكير في المنتج والهندسة القوية، لتحصل على تطبيق جميل وموثوق معاً.",
+      f1: { title: "فريق خبير ومركّز", desc: "تعمل مباشرة مع من يبنون منتجك — دون تسليمات أو رؤية مُخفّفة." },
+      f2: { title: "الخصوصية بالتصميم", desc: "نبني بتقليل البيانات وموافقة واضحة منذ البداية، لا كإضافة لاحقة." },
+      f3: { title: "مبني للتوسّع", desc: "بنية نظيفة وأسس متينة تحافظ على سرعة تطبيقك مع نموه." },
+      stat1: "الاحتفاظ بالعملاء", stat2: "متوسط الوصول لأول إصدار", stat3: "استجابة الدعم", stat4: "ملكية الشيفرة المصدرية"
+    },
+    cta: { title1: "لديك فكرة تطبيق؟", title2: "لنبنِها معاً.", lead: "أخبرنا بما تعمل عليه. سنعاود التواصل خلال يوم عمل واحد بالخطوات التالية.", button: "تواصل معنا" },
+    footer: { tagline: "تطوير تطبيقات موبايل لـ iOS وAndroid.", company: "الشركة", why: "لماذا نحن", resources: "الموارد", faq: "الأسئلة الشائعة", legal: "قانوني", rights: "جميع الحقوق محفوظة." },
+    support: {
+      eyebrow: "مركز المساعدة", title1: "كيف يمكننا", title2: "مساعدتك؟",
+      lead: "اعثر على إجابات سريعة أدناه، أو تواصل مع فريقنا مباشرة — نردّ عادةً خلال يوم عمل واحد.",
+      c1: { title: "الدعم عبر البريد", desc: "أسئلة عن تطبيق أو خطأ أو حسابك؟ راسلنا في أي وقت." },
+      c2: { title: "إرسال طلب", desc: "استخدم النموذج لوصف مشكلتك وسنوجّهها إلى الشخص المناسب.", link: "افتح نموذج التواصل" },
+      c3: { title: "البيانات والخصوصية", desc: "الطلبات المتعلقة ببياناتك أو حذفها أو الموافقة يتولاها فريق الخصوصية." },
+      faqEyebrow: "FAQ", faqTitle: "الأسئلة الشائعة",
+      faq1: { q: "كيف أبلّغ عن خطأ في أحد تطبيقاتكم؟", a: "راسل support@nilemnod.com مع اسم التطبيق وطراز جهازك وإصدار نظام التشغيل ووصف موجز أو لقطة شاشة. كلما زادت التفاصيل، أسرعنا في إعادة إنتاج الخطأ وإصلاحه." },
+      faq2: { q: "كم يستغرق الرد؟", a: "نسعى للرد على كل طلب خلال يوم عمل واحد. قد تستغرق الحالات المعقّدة وقتاً أطول، لكننا نُبقيك على اطلاع دائماً." },
+      faq3: { q: "كيف أطلب حذف بياناتي؟", a: "أرسل طلباً إلى privacy@nilemnod.com من البريد المرتبط بحسابك. سنتحقق من هويتك ونحذف بياناتك الشخصية وفق سياسة الخصوصية." },
+      faq4: { q: "هل تطوّرون تطبيقات مخصّصة لشركات أخرى؟", a: "نعم. تصمّم Nilemnod وتطوّر تطبيقات موبايل للشركات الناشئة والقائمة. استخدم النموذج لإخبارنا عن مشروعك وسنتواصل معك." },
+      faq5: { q: "ما المنصّات التي تدعمها تطبيقاتكم؟", a: "نطوّر لكل من iOS وAndroid، ويمكننا استهداف أحدث الإصدارات الرئيسية للنظام إضافةً إلى إصدارات أقدم واسعة الانتشار. تُحدَّد المتطلبات في بداية كل مشروع." },
+      faq6: { q: "نسيت كلمة المرور أو لا أستطيع تسجيل الدخول — ماذا أفعل؟", a: "استخدم إعادة تعيين كلمة المرور داخل التطبيق إن كانت متاحة. إن استمرّت المشكلة، راسل support@nilemnod.com وسنساعدك على استعادة الوصول بأمان." },
+      ctaTitle1: "ما زلت بحاجة إلى مساعدة؟", ctaLead: "يسعد فريقنا بمساعدتك. تواصل معنا وسنردّ عليك قريباً."
+    },
+    contact: {
+      eyebrow: "تواصل", title1: "لنتحدث عن", title2: "مشروعك",
+      lead: "سواء كانت لديك فكرة تطبيق جديدة أو سؤال عن منتج قائم أو تحتاج دعماً — أرسل لنا رسالة وسنردّ خلال يوم عمل واحد.",
+      info1: { title: "عام" }, info2: { title: "الدعم" },
+      info3: { title: "الشركة", body: "Nilemnod — استوديو يعمل عن بُعد أولاً.<br/>العنوان المسجّل متاح عند الطلب." },
+      info4: { title: "زمن الاستجابة", body: "خلال يوم عمل واحد، من الاثنين إلى الجمعة." },
+      form: { name: "الاسم *", namePh: "اسمك", email: "البريد الإلكتروني *", emailPh: "you@example.com", subject: "الموضوع", opt1: "مشروع جديد", opt2: "طلب دعم", opt3: "البيانات والخصوصية", opt4: "شراكة", opt5: "أخرى", message: "الرسالة *", messagePh: "أخبرنا باختصار بما تحتاجه…", submit: "إرسال الرسالة", note: "بإرسال هذه الرسالة فإنك توافق على سياسة الخصوصية. نستخدم بياناتك فقط للرد على طلبك." },
+      status: { ok: "شكراً! تم إرسال رسالتك. سنردّ قريباً.", err: "تعذّر الإرسال. حاول مجدداً أو راسل hello@nilemnod.com.", mailto: "جارٍ فتح برنامج البريد لديك…" }
+    },
+    privacy: {
+      eyebrow: "قانوني", title: "سياسة الخصوصية",
+      lead: "توضّح هذه السياسة البيانات الشخصية التي تجمعها Nilemnod، ولماذا نجمعها، وما لديك من خيارات وحقوق.",
+      updated: "آخر تحديث: 21 يوليو 2026",
+      note: "هذا نموذج عام يجب مراجعته من محامٍ مؤهل وتكييفه مع كل تطبيق قبل النشر. تُستخدَم بيانات تواصل مؤقتة يجب استبدالها بمعلوماتك الرسمية.",
+      toc: { overview: "نظرة عامة", data: "البيانات المجمّعة", use: "استخدام البيانات", legal: "الأسس القانونية", sharing: "المشاركة", retention: "الاحتفاظ", rights: "حقوقك", security: "الأمان", children: "الأطفال", changes: "التغييرات", contact: "تواصل" },
+      s1: { h: "1. نظرة عامة", p1: "تطوّر Nilemnod («نحن») تطبيقات موبايل وهذا الموقع وتشغّلها. نحترم خصوصيتك ونلتزم بحماية بياناتك الشخصية. تنطبق هذه السياسة على موقع nilemnod.com وعلى التطبيقات التي ننشرها، إلا حين يوفّر تطبيق إشعار خصوصية خاصاً به.", p2: "باستخدامك موقعنا أو تطبيقاتنا، فإنك تُقرّ بالممارسات الموضّحة في هذه السياسة." },
+      s2: { h: "2. البيانات التي نجمعها", p1: "نهدف إلى جمع البيانات اللازمة فقط. وبحسب طريقة تفاعلك، قد يشمل ذلك:", l1: "<strong>المعلومات التي تقدّمها</strong> — مثل اسمك وبريدك الإلكتروني ومحتوى الرسائل التي ترسلها عبر النماذج أو البريد.", l2: "<strong>بيانات الحساب</strong> — حين يتطلّب التطبيق حساباً، بيانات الاعتماد وتفاصيل الملف الشخصي التي تختار تقديمها.", l3: "<strong>بيانات الاستخدام والجهاز</strong> — مثل إصدار التطبيق ونوع الجهاز ونظام التشغيل وبيانات التفاعل المجهّلة لتحسين الاستقرار والميزات.", l4: "<strong>بيانات التشخيص</strong> — تقارير الأعطال وبيانات الأداء التي تساعدنا على إصلاح المشكلات." },
+      s3: { h: "3. كيف نستخدم بياناتك", p1: "نستخدم البيانات الشخصية من أجل:", l1: "توفير تطبيقاتنا وموقعنا وصيانتها وتحسينها؛", l2: "الرد على طلباتك وأسئلتك واستفسارات الدعم؛", l3: "تشخيص المشكلات ومنع إساءة الاستخدام والحفاظ على أمان خدماتنا؛", l4: "الامتثال للالتزامات القانونية المنطبقة علينا.", p2: "نحن لا نبيع بياناتك الشخصية." },
+      s4: { h: "4. الأسس القانونية للمعالجة", p1: "حيث ينطبق نظام GDPR أو قوانين مماثلة، نعالج البيانات بناءً على: موافقتك؛ وتنفيذ عقد معك؛ ومصالحنا المشروعة في تشغيل خدماتنا وتحسينها؛ والامتثال للالتزامات القانونية. ويمكنك سحب موافقتك في أي وقت عندما تستند المعالجة إليها." },
+      s5: { h: "5. مشاركة بياناتك", p1: "نشارك البيانات الشخصية عند الضرورة فقط، مع:", l1: "<strong>مزوّدي الخدمة</strong> — جهات موثوقة (مثل الاستضافة والتحليلات وتقارير الأعطال) تعالج البيانات نيابةً عنا بموجب اتفاقيات مناسبة؛", l2: "<strong>القانون والسلامة</strong> — عندما يقتضي القانون ذلك، أو لحماية حقوق أو ممتلكات أو سلامة Nilemnod أو مستخدميها أو الآخرين؛", l3: "<strong>عمليات نقل الأعمال</strong> — في سياق اندماج أو استحواذ أو بيع أصول، مع الالتزام بهذه السياسة." },
+      s6: { h: "6. الاحتفاظ بالبيانات", p1: "نحتفظ بالبيانات الشخصية فقط للمدة اللازمة للأغراض الموضّحة في هذه السياسة، أو لتقديم خدماتنا، أو للوفاء بالمتطلبات القانونية والمحاسبية والتقريرية. وعندما لا تعود هناك حاجة إليها، نحذفها أو نجهّلها." },
+      s7: { h: "7. حقوقك", p1: "بحسب موقعك، قد يكون لك الحق في الوصول إلى بياناتك أو تصحيحها أو حذفها أو تصديرها، والاعتراض على بعض المعالجات أو تقييدها، وسحب الموافقة. لممارسة هذه الحقوق، راسل privacy@nilemnod.com. سنردّ خلال المدة التي يقتضيها القانون المنطبق. ولك أيضاً الحق في تقديم شكوى إلى هيئة حماية البيانات المحلية." },
+      s8: { h: "8. الأمان", p1: "نستخدم تدابير تقنية وتنظيمية مناسبة لحماية البيانات من الوصول غير المصرّح به أو الفقدان أو سوء الاستخدام. ولا توجد طريقة نقل أو تخزين آمنة تماماً، لكننا نعمل باستمرار على حماية معلوماتك." },
+      s9: { h: "9. خصوصية الأطفال", p1: "خدماتنا ليست موجّهة للأطفال دون السن الذي يقتضيه القانون المحلي (عادةً 13 أو 16 عاماً)، ولا نجمع بياناتهم عن قصد. إذا كنت تعتقد أن طفلاً قدّم لنا بيانات، فتواصل معنا وسنحذفها." },
+      s10: { h: "10. التغييرات على هذه السياسة", p1: "قد نحدّث هذه السياسة من حين لآخر. سننشر النسخة المحدّثة هنا ونعدّل تاريخ «آخر تحديث». وقد نبلّغ عن التغييرات الجوهرية عبر التطبيقات أو البريد الإلكتروني عند الاقتضاء." },
+      s11: { h: "11. تواصل معنا", p1: "إذا كانت لديك أسئلة عن هذه السياسة أو عن كيفية تعاملنا مع بياناتك، فراسلنا على <a class=\"inline\" href=\"mailto:privacy@nilemnod.com\">privacy@nilemnod.com</a> أو عبر <a class=\"inline\" href=\"contact.html\">صفحة التواصل</a>." }
+    },
+    terms: {
+      eyebrow: "قانوني", title: "شروط الخدمة",
+      lead: "تحكم هذه الشروط استخدامك لموقع Nilemnod وللتطبيقات التي نقدّمها. يُرجى قراءتها بعناية.",
+      updated: "آخر تحديث: 21 يوليو 2026",
+      note: "هذا نموذج عام يجب مراجعته من محامٍ مؤهل وتكييفه مع اختصاصك القضائي وتطبيقاتك قبل النشر. تُستخدَم بيانات تواصل مؤقتة يجب استبدالها بمعلوماتك الرسمية.",
+      toc: { acceptance: "القبول", use: "استخدام الخدمة", accounts: "الحسابات", ip: "الملكية الفكرية", thirdparty: "أطراف ثالثة", disclaimer: "إخلاء المسؤولية", liability: "المسؤولية", termination: "الإنهاء", law: "القانون الحاكم", changes: "التغييرات", contact: "تواصل" },
+      s1: { h: "1. قبول الشروط", p1: "بوصولك إلى موقع Nilemnod أو أي تطبيق من Nilemnod (يُشار إليها مجتمعةً بـ«الخدمات») أو استخدامك لها، فإنك توافق على الالتزام بشروط الخدمة هذه. إن لم توافق، فلا تستخدم الخدمات. وحين يكون لتطبيق معيّن شروط إضافية خاصة، فإنها تنطبق إلى جانب هذه الشروط." },
+      s2: { h: "2. استخدام الخدمات", p1: "توافق على استخدام الخدمات لأغراض مشروعة فقط ووفقاً لهذه الشروط. ويُحظَر عليك:", l1: "استخدام الخدمات بأي طريقة تخالف القوانين أو اللوائح المنطبقة؛", l2: "محاولة الوصول غير المصرّح به إلى أنظمتنا أو التداخل مع تشغيلها؛", l3: "الهندسة العكسية لأي جزء من الخدمات أو نسخه أو إعادة بيعه، إلا بما يسمح به القانون؛", l4: "استخدام الخدمات لنقل محتوى ضار أو مسيء أو منتهِك للحقوق." },
+      s3: { h: "3. الحسابات", p1: "قد تتطلّب بعض التطبيقات حساباً. أنت مسؤول عن الحفاظ على أمان بيانات اعتمادك وعن جميع الأنشطة على حسابك. أبلغنا فوراً بأي استخدام غير مصرّح به. ويجوز لنا تعليق أو إغلاق الحسابات التي تخالف هذه الشروط." },
+      s4: { h: "4. الملكية الفكرية", p1: "الخدمات، بما فيها البرمجيات والتصميم والنصوص والشعارات، مملوكة لـ Nilemnod أو للمرخّصين لها ومحمية بقوانين الملكية الفكرية. نمنحك ترخيصاً محدوداً وغير حصري وغير قابل للنقل لاستخدام الخدمات للغرض المقصود منها. وجميع الحقوق غير الممنوحة صراحةً محفوظة." },
+      s5: { h: "5. خدمات الأطراف الثالثة", p1: "قد ترتبط خدماتنا بمنصّات أطراف ثالثة أو تعتمد عليها، مثل متاجر التطبيقات ومزوّدي الدفع. ولسنا مسؤولين عن محتوى أو ممارسات تلك الأطراف، وتنطبق شروطها وسياساتها الخاصة على استخدامك لها." },
+      s6: { h: "6. إخلاء الضمانات", p1: "تُقدَّم الخدمات «كما هي» و«حسب توفّرها»، دون أي ضمانات من أي نوع، صريحة أو ضمنية، إلى أقصى حد يسمح به القانون. ولا نضمن أن تكون الخدمات دون انقطاع أو خالية من الأخطاء أو آمنة تماماً." },
+      s7: { h: "7. تحديد المسؤولية", p1: "إلى أقصى حد يسمح به القانون، لن تكون Nilemnod مسؤولة عن أي أضرار غير مباشرة أو عرضية أو خاصة أو تبعية، أو عن فقدان البيانات أو الأرباح، الناشئة عن استخدامك للخدمات. ولا يستبعد أيٌّ من هذه الشروط أي مسؤولية لا يمكن استبعادها بموجب القانون المنطبق." },
+      s8: { h: "8. الإنهاء", p1: "يجوز لنا تعليق أو إنهاء وصولك إلى الخدمات في أي وقت إذا خالفت هذه الشروط أو عند الحاجة لحماية الخدمات أو المستخدمين الآخرين. ويمكنك التوقف عن استخدام الخدمات في أي وقت." },
+      s9: { h: "9. القانون الحاكم", p1: "تخضع هذه الشروط لقوانين الاختصاص القضائي الذي تأسّست فيه Nilemnod، دون اعتبار لمبادئ تنازع القوانين. وتخضع أي نزاعات للمحاكم المختصة في ذلك الاختصاص، ما لم ينص القانون المحلي الإلزامي على خلاف ذلك." },
+      s10: { h: "10. التغييرات على هذه الشروط", p1: "قد نحدّث هذه الشروط من حين لآخر. وستُنشَر النسخة المحدّثة هنا مع تاريخ «آخر تحديث» جديد. واستمرارك في استخدام الخدمات بعد نفاذ التغييرات يُعدّ قبولاً للشروط المحدّثة." },
+      s11: { h: "11. تواصل معنا", p1: "يمكن إرسال الأسئلة حول هذه الشروط إلى <a class=\"inline\" href=\"mailto:legal@nilemnod.com\">legal@nilemnod.com</a> أو عبر <a class=\"inline\" href=\"contact.html\">صفحة التواصل</a>." }
+    }
+  }
+};
