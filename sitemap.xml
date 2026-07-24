@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://nilemnod.com/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://nilemnod.com/support.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://nilemnod.com/contact.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://nilemnod.com/privacy.html</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://nilemnod.com/terms.html</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://nilemnod.com/</loc><lastmod>2026-07-24</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://nilemnod.com/support.html</loc><lastmod>2026-07-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nilemnod.com/contact.html</loc><lastmod>2026-07-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nilemnod.com/delete-account.html</loc><lastmod>2026-07-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nilemnod.com/privacy.html</loc><lastmod>2026-07-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://nilemnod.com/terms.html</loc><lastmod>2026-07-24</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
 </urlset>
