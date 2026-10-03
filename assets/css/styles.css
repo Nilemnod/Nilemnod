@@ -172,14 +172,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 600; line-height: 1
 .nav .container { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
 
 .brand { display: inline-flex; align-items: center; gap: 11px; font-family: var(--font-head); font-weight: 700; font-size: 1.18rem; letter-spacing: -0.01em; }
-.brand-mark {
-  width: 34px; height: 34px; border-radius: 10px;
-  background: var(--grad);
-  display: grid; place-items: center;
-  box-shadow: 0 8px 20px -8px rgba(109, 94, 252, 0.8);
-  flex-shrink: 0;
-}
-.brand-mark svg { width: 20px; height: 20px; }
+.brand-mark { width: 34px; height: 34px; border-radius: 10px; flex-shrink: 0; display: block; }
 
 .nav-links { display: flex; align-items: center; gap: 6px; }
 .nav-links a {
