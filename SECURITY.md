@@ -42,7 +42,7 @@ pull requests, or discussions.**
 Use one of the following private channels:
 
 1. **GitHub** — open a private report via
-   [Security → Report a vulnerability](../../security/advisories/new)
+   [Security → Report a vulnerability](https://github.com/Nilemnod/Nilemnod/security/advisories/new)
    in this repository.
 2. **Email** — send a message to
    [support@nilemnod.com](mailto:support@nilemnod.com) with the subject line
