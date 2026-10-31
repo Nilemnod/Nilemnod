@@ -603,3 +603,5 @@ h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 600; line-height: 1
   html { scroll-behavior: auto; }
   [data-reveal] { opacity: 1; transform: none; }
 }
+.field [aria-invalid="true"] { border-color: rgba(255, 91, 133, 0.6); }
+.hp-field { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }

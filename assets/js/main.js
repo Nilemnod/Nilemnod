@@ -104,10 +104,14 @@
       const status = form.querySelector(".form-status");
       const endpoint = form.getAttribute("data-endpoint") || "";
       const isConfigured = endpoint && endpoint.indexOf("YOUR_FORM_ID") === -1;
+      // data-mailto ends up in location.href, so only a plain address is accepted.
+      const rawMailto = form.getAttribute("data-mailto") || "";
+      const mailto = /^[\w.+-]+@[\w-]+(\.[\w-]+)+$/.test(rawMailto) ? rawMailto : "support@nilemnod.com";
       const STATUS_TEXT = {
         "contact.status.ok": "Thanks! Your message has been sent. We'll reply shortly.",
-        "contact.status.err": "Couldn't send. Please try again or email hello@nilemnod.com.",
+        "contact.status.err": "Couldn't send. Please try again or email {email}.",
         "contact.status.mailto": "Opening your email app…",
+        "contact.status.invalid": "Please fill in the required fields and check your email address.",
       };
       const showStatus = (type, key) => {
         if (!status) return;
@@ -118,13 +122,36 @@
           const v = key.split(".").reduce((o, k) => (o == null ? undefined : o[k]), window.I18N[lang]);
           if (v) text = v;
         }
-        status.textContent = text;
+        status.textContent = text.replace("{email}", mailto);
+      };
+      const fields = form.querySelectorAll("input:not([type=hidden]):not([name=_gotcha]), select, textarea");
+      fields.forEach((field) => {
+        field.addEventListener("input", () => {
+          if (field.checkValidity()) field.removeAttribute("aria-invalid");
+        });
+      });
+      // The form uses novalidate for custom styling, so validity is checked here.
+      const validate = () => {
+        let firstInvalid = null;
+        fields.forEach((field) => {
+          if (field.value.trim() === "" && field.required) field.value = "";
+          const valid = field.checkValidity();
+          valid ? field.removeAttribute("aria-invalid") : field.setAttribute("aria-invalid", "true");
+          if (!valid && !firstInvalid) firstInvalid = field;
+        });
+        if (firstInvalid) firstInvalid.focus();
+        return !firstInvalid;
       };
       form.addEventListener("submit", async (ev) => {
         ev.preventDefault();
+        if (!validate()) {
+          showStatus("err", "contact.status.invalid");
+          return;
+        }
         const data = new FormData(form);
+        if (data.get("_gotcha")) return;
         if (!isConfigured) {
-          const email = form.getAttribute("data-mailto") || "support@nilemnod.com";
+          const email = encodeURI(mailto);
           const subject = encodeURIComponent("[Nilemnod] " + (data.get("subject") || "Message"));
           const body = encodeURIComponent(
             "Name: " + (data.get("name") || "") +
