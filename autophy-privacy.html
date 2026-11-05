@@ -64,9 +64,9 @@
       <div class="container">
         <span class="eyebrow">Autophy</span>
         <h1>Autophy Privacy Policy</h1>
-        <p>Autophy is an intermittent fasting tracker for Android. It keeps your data on your device. This policy explains what the app stores, how it uses Health Connect, and the choices you have.</p>
+        <p>Autophy is an intermittent fasting tracker for Android. Your fasting, body and wellbeing data stay on your device. This policy explains what the app stores, what technical data it sends to improve the app, how it uses Health Connect, and the choices you have.</p>
         <div class="meta-row">
-          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><span>Last updated: 31 October 2026</span></span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><span>Last updated: 5 November 2026</span></span>
           <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"/><path d="m4 6 8 6 8-6"/></svg><a class="inline" href="mailto:support@nilemnod.com">support@nilemnod.com</a></span>
         </div>
       </div>
@@ -77,6 +77,7 @@
         <nav class="toc" aria-label="On this page">
           <a href="#summary">Summary</a>
           <a href="#data">Data the app stores</a>
+          <a href="#diagnostics">Crash reports &amp; statistics</a>
           <a href="#health-connect">Health Connect</a>
           <a href="#permissions">Permissions</a>
           <a href="#sharing">Sharing and export</a>
@@ -92,8 +93,9 @@
           <section id="summary">
             <h2>1. Summary</h2>
             <ul>
-              <li><strong>Everything stays on your device.</strong> Autophy has no account, no servers and no internet access. Nilemnod never receives your data.</li>
-              <li><strong>No ads, analytics or tracking.</strong> The app contains no advertising, analytics or crash-reporting SDKs.</li>
+              <li><strong>Your health data stays on your device.</strong> Fasts, check-ins, weight, water and notes are stored only on your device. Autophy has no account, and Nilemnod never receives this data.</li>
+              <li><strong>Crash reports and usage statistics.</strong> To fix bugs and improve the app, Autophy uses Google Firebase Crashlytics and Google Analytics for Firebase. They receive technical data only — never your health data — and you can turn them off in Autophy settings.</li>
+              <li><strong>No ads or cross-app tracking.</strong> Autophy contains no advertising SDKs, does not collect the Android advertising ID and does not track you across other companies' apps or websites.</li>
               <li><strong>Health Connect is optional.</strong> If you turn it on, weight and hydration are read from and written to Health Connect on your device only.</li>
               <li><strong>We do not sell or share your data</strong> with anyone.</li>
             </ul>
@@ -110,11 +112,23 @@
               <li><strong>Progress</strong> — streaks, achievements and challenges calculated from your history.</li>
               <li><strong>Settings</strong> — notification, sound, unit and display preferences.</li>
             </ul>
-            <p>This data is used only to show your timer, history, statistics, reminders and widgets. It is not sent to Nilemnod or any third party.</p>
+            <p>This data is used only to show your timer, history, statistics, reminders and widgets. It stays on your device and is never sent to Nilemnod, Firebase or any other third party.</p>
+          </section>
+
+          <section id="diagnostics">
+            <h2>3. Crash reports and usage statistics</h2>
+            <p>Autophy uses two Google services that process technical data on our behalf. Google LLC acts as our data processor.</p>
+            <ul>
+              <li><strong>Firebase Crashlytics</strong> — when the app crashes or hits a serious error: error details and stack trace, device model, Android and app version, available memory and storage, and a random installation identifier. Crash reports are kept for 90 days.</li>
+              <li><strong>Google Analytics for Firebase</strong> — how the app is used: app opens, screens viewed and features used, app version, device model, Android version, language, an approximate country or region, and a random app-instance identifier. Statistics are kept for up to 14 months.</li>
+            </ul>
+            <p>This data is not linked to your name or email address and never includes the content of your entries: no fasting times, weight, water, mood, check-ins, notes or Health Connect data. It is not used for advertising, and Autophy does not collect the Android advertising ID.</p>
+            <p>We use this data to find and fix crashes and to understand which features to improve, on the basis of our legitimate interests. You can turn off crash reports and usage statistics at any time in Autophy settings; after that, no new data is sent.</p>
+            <p>Google processes this data in the United States and other countries where it operates, under the safeguards described in the <a class="inline" href="privacy.html#transfers">international transfers section</a> of our general Privacy Policy. Learn more in <a class="inline" href="https://firebase.google.com/support/privacy" rel="noopener">Privacy and Security in Firebase</a> and the <a class="inline" href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>.</p>
           </section>
 
           <section id="health-connect">
-            <h2>3. Health Connect</h2>
+            <h2>4. Health Connect</h2>
             <p>If you connect Autophy to Health Connect, the app asks for permission to:</p>
             <ul>
               <li><strong>Read and write weight</strong> — to show your weight trend next to your fasting progress and to save weights you log in Autophy;</li>
@@ -122,7 +136,7 @@
             </ul>
             <p>Data from Health Connect is processed only on your device and is used only to provide the features described above. In line with the Limited Use requirements, this data:</p>
             <ul>
-              <li>is not transferred to Nilemnod or any third party;</li>
+              <li>is not transferred to Nilemnod or any third party, and is never sent to Firebase Crashlytics or Google Analytics;</li>
               <li>is not used for advertising, including personalised or interest-based ads;</li>
               <li>is not used to determine creditworthiness or for lending purposes;</li>
               <li>is not sold and is not read by any person.</li>
@@ -132,19 +146,20 @@
           </section>
 
           <section id="permissions">
-            <h2>4. Device permissions</h2>
+            <h2>5. Device permissions</h2>
             <ul>
               <li><strong>Notifications</strong> — to tell you about fasting phases, goals, reminders and schedule events.</li>
               <li><strong>Alarms and reminders (exact alarms)</strong> — so that phase and goal notifications arrive on time.</li>
               <li><strong>Run at startup</strong> — to restore your reminders after the device restarts.</li>
               <li><strong>Vibration</strong> — for optional haptic feedback.</li>
+              <li><strong>Internet access</strong> — only to send crash reports and usage statistics to Firebase, as described in section 3.</li>
             </ul>
             <p>None of these permissions gives the app access to personal data outside Autophy.</p>
           </section>
 
           <section id="sharing">
-            <h2>5. Sharing and export</h2>
-            <p>Autophy never shares data automatically. Data leaves the app only when you choose to:</p>
+            <h2>6. Sharing and export</h2>
+            <p>Apart from the technical data described in section 3, Autophy never shares data automatically. Your entries leave the app only when you choose to:</p>
             <ul>
               <li><strong>Export your fasting history</strong> as a CSV file, which you save to a location you pick or send to an app you pick;</li>
               <li><strong>Share a progress card</strong> image through the Android share sheet.</li>
@@ -153,45 +168,46 @@
           </section>
 
           <section id="backup">
-            <h2>6. Android backup</h2>
+            <h2>7. Android backup</h2>
             <p>If Android backup is turned on for your device, Android may include Autophy's data in your device backup and restore it when you set up a new device. This backup is managed by Google under your Google account settings, not by Nilemnod. Technical data such as scheduled-alarm bookkeeping is excluded from backup.</p>
           </section>
 
           <section id="retention">
-            <h2>7. Retention and deletion</h2>
+            <h2>8. Retention and deletion</h2>
             <p>Your data stays on your device until you delete it. To delete all Autophy data, clear the app's storage in Android settings or uninstall the app. Data you wrote to Health Connect stays there until you remove it in Health Connect.</p>
-            <p>Because Nilemnod does not hold any of your Autophy data, there is nothing for us to access, correct or delete on our side. You remain in full control of it on your device.</p>
+            <p>Nilemnod does not hold your entries, so there is nothing for us to access, correct or delete on our side; you remain in full control of them on your device. Crash reports and usage statistics are deleted automatically after the periods listed in section 3.</p>
           </section>
 
           <section id="rights">
-            <h2>8. Your rights</h2>
-            <p>Because Nilemnod does not receive your Autophy data, you exercise your data protection rights directly in the app and on your device:</p>
+            <h2>9. Your rights</h2>
+            <p>Because your entries never leave your device, you exercise your data protection rights directly in the app and on your device:</p>
             <ul>
               <li><strong>Access and portability</strong> — export your fasting history as a CSV file;</li>
               <li><strong>Deletion</strong> — clear the app's storage in Android settings or uninstall the app;</li>
               <li><strong>Health Connect data</strong> — review, export or delete it in the Health Connect app;</li>
               <li><strong>Withdrawing consent</strong> — revoke Health Connect permissions in Autophy settings or in Health Connect.</li>
+              <li><strong>Crash reports and statistics</strong> — turn them off in Autophy settings to object to this processing. This data is linked only to a random identifier, not to you, so we usually cannot find the records that relate to you; reinstalling the app resets the identifier.</li>
             </ul>
             <p>If you have questions, write to <a class="inline" href="mailto:support@nilemnod.com">support@nilemnod.com</a>. You can also lodge a complaint with the State Agency for Personal Data Protection under the Cabinet of Ministers of the Kyrgyz Republic or with the data protection authority in your country.</p>
           </section>
 
           <section id="medical">
-            <h2>9. Not medical advice</h2>
+            <h2>10. Not medical advice</h2>
             <p>Autophy provides general information about fasting phases for reference only. It is not a medical device and does not provide medical advice. Talk to a doctor before fasting, especially for longer fasts or if you have a medical condition, are pregnant or breastfeeding.</p>
           </section>
 
           <section id="children">
-            <h2>10. Children</h2>
-            <p>Autophy is not intended for children under 18, and fasting apps are not suitable for them. We do not knowingly collect data from children; in any case, the app does not send data to us.</p>
+            <h2>11. Children</h2>
+            <p>Autophy is not intended for children under 18, and fasting apps are not suitable for them. We do not knowingly collect data from children.</p>
           </section>
 
           <section id="changes">
-            <h2>11. Changes to this policy</h2>
+            <h2>12. Changes to this policy</h2>
             <p>If the way Autophy handles data changes, we will update this page and the "last updated" date before the change reaches the app.</p>
           </section>
 
           <section id="contact">
-            <h2>12. Contact</h2>
+            <h2>13. Contact</h2>
             <p>Questions about this policy or Autophy: <a class="inline" href="mailto:support@nilemnod.com">support@nilemnod.com</a>.</p>
             <p>Autophy is published by Nilemnod, the trade name of Individual Entrepreneur Abdulkhamidov Daniiar Abdulkhamidovich (IP), 12c ul. A. Karimova, Osh 723505, Kyrgyzstan.</p>
           </section>
