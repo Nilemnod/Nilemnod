@@ -77,6 +77,8 @@
     let saved;
     try { saved = localStorage.getItem(STORAGE_KEY); } catch (e) {}
     if (saved && meta[saved]) return saved;
+    const fixed = document.documentElement.getAttribute("data-default-lang");
+    if (fixed && meta[fixed]) return fixed;
     const nav = (navigator.language || "en").slice(0, 2).toLowerCase();
     return meta[nav] ? nav : "en";
   }
